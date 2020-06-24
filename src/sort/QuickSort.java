@@ -24,13 +24,18 @@ public class QuickSort <T extends  Comparable> {
      private int position(T[] t,int low,int high){
          T tmp = t[low];   //选取第一个元素作为轴
          while (low<high){
-             while (low<high&&t[high].compareTo(tmp)> 0 )high--;
+             while (low<high&&t[high].compareTo(tmp)> 0 ) {
+                 high--;
+             }
              t[low]=t[high];  //右边的比轴小，那么将high所在的元素赋给low位置
-             while (low<high&&t[low].compareTo(tmp)<=0)low++;
+             while (low<high&&t[low].compareTo(tmp)<=0) {
+                 low++;
+             }
              t[high]=t[low];  //左边的比轴大，将low元素所在的赋给high位置。
          }//当low == high时，tmp就处于列表中间。
          t[low] = tmp;
          return low;
      }
+
 
 }

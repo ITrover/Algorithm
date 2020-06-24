@@ -36,16 +36,19 @@ public class MergeSort <T extends Comparable>{
             int temPos = leftPos;
             int numElements = rightEnd -leftPos+1;
             while (leftPos<=leftEnd && rightPos<= rightEnd){
-                if(t[leftPos].compareTo(t[rightPos])<= 0)
+                if(t[leftPos].compareTo(t[rightPos])<= 0) {
                     tmpArray[temPos++] =t[leftPos++];
-                else
+                } else {
                     tmpArray[temPos++] =t[rightPos++];
+                }
             }
             //合并剩下的部分
-            while (leftPos<=leftEnd)
+            while (leftPos<=leftEnd) {
                 tmpArray[temPos++] =t[leftPos++];
-            while (rightPos<=rightEnd)
+            }
+            while (rightPos<=rightEnd) {
                 tmpArray[temPos++] =t[rightPos++];
+            }
             //合并会原来的集合
             for (int i = 0; i <numElements ; i++,rightEnd--) {
                 t[rightEnd] = tmpArray[rightEnd];

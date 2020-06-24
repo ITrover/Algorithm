@@ -1,6 +1,5 @@
 package graph;
 
-import javax.management.InstanceNotFoundException;
 import java.util.Arrays;
 
 public class Dijkstra {
@@ -13,7 +12,8 @@ public class Dijkstra {
             dis[i] = edge[start][i];
             bj[i] = false;
         }
-        bj[start] = true;   //将初始点标记为已经访问过
+        //将初始点标记为已经访问过
+        bj[start] = true;
         dis[start] = 0;
         p[start] = -1;
         //核心算法
@@ -35,7 +35,8 @@ public class Dijkstra {
             for (int j = 0; j < edge.length; j++) {
                 if (!bj[j] && dis[j] > dis[k] + edge[k][j]) {
                     dis[j] = dis[k] + edge[k][j];
-                    p[j]=k;//记录前驱
+                    //记录前驱
+                    p[j]=k;
                 }
             }
         }

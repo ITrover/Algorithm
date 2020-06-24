@@ -9,7 +9,8 @@ public class BinSort<T extends Comparable> {
         T tmp = null;
         int left,mid,right;
         for (int i = 1; i < t.length; i++) {
-            tmp = t[i];   //保留待插入元素
+            //保留待插入元素
+            tmp = t[i];
             left = 0;
             right = i-1;
             while (left <= right){
