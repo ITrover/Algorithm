@@ -8,9 +8,14 @@ import sun.plugin.AppletStatusListener;
 import java.util.HashMap;
 
 /**
- * 使用递归
- * 编写思虑
- * 绘制图解
+ * 递归
+ * 思路
+ * 退出条件 ：
+ *      数组越界或者传入的起始位置错误
+ * 递归函数任务 ：
+ *      如果满足条件，则创建根节点，并对左右节点通过调用本函数赋值，否则返回null
+ * 返回 ：
+ *      根节点或null
  */
 class Solution {
     public class TreeNode {

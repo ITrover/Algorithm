@@ -2,13 +2,26 @@ package graph;
 
 import java.util.Arrays;
 
+/**
+ * Dijkstra算法
+ * 求解单源结点到其他结点的最短路径
+ */
 public class Dijkstra {
     public static final int INTFINY = 10000;
 
+    /**
+     *
+     * @param edge 图
+     * @param start 源节点
+     * @param dis 距离
+     * @param p 路径的前一个结点 pre
+     */
     public void djsk(int[][] edge, int start, int dis[], int p[]) {
         //初始化
+        // 标记是否访问过
         Boolean[] bj = new Boolean[edge.length];
         for (int i = 0; i < edge.length; i++) {
+            // 源节点到任意结点的直接距离
             dis[i] = edge[start][i];
             bj[i] = false;
         }
@@ -23,6 +36,7 @@ public class Dijkstra {
             int k = 0;
             int min = INTFINY;
             for (int j = 0; j < edge.length; j++) {
+                // 找到没有访问过，同时也是最近的结点
                 if (!bj[j] && dis[j] < min) {
                     min = dis[j];
                     k = j;
@@ -50,9 +64,12 @@ public class Dijkstra {
                 {INTFINY, INTFINY, 4, 10, INTFINY, 3},
                 {INTFINY, INTFINY, INTFINY, 5, 3, INTFINY}};
         Dijkstra dijkstra = new Dijkstra();
+        // 最短路径
         int[] dis = new int[edge.length];
+        // 前驱
         int[] p = new int[edge.length];
-        dijkstra.djsk(edge,0,dis,p);
-        System.out.println(Arrays.asList(dis));
+        dijkstra.djsk(edge,1,dis,p);
+        System.out.println(Arrays.toString(dis));
+        System.out.println(Arrays.toString(p));
     }
 }
