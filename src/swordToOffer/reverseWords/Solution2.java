@@ -7,6 +7,12 @@ package swordToOffer.reverseWords;
  * @date 2020/8/1 21:32
  */
 
+/**
+ * 使用双指针
+ * 截取子字符串
+ * 时间复杂度 o(n)
+ * 空间复杂度 o(n)
+ */
 class Solution2 {
     public String reverseWords(String s) {
         s.trim();

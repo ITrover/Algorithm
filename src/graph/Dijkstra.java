@@ -13,22 +13,22 @@ public class Dijkstra {
      *
      * @param edge 图
      * @param start 源节点
-     * @param dis 距离
-     * @param p 路径的前一个结点 pre
+     * @param dis 从start到每个结点的距离
+     * @param pre 路径的前一个结点 pre
      */
-    public void djsk(int[][] edge, int start, int dis[], int p[]) {
+    public void djsk(int[][] edge, int start, int dis[], int pre[]) {
         //初始化
         // 标记是否访问过
-        Boolean[] bj = new Boolean[edge.length];
+        Boolean[] visited = new Boolean[edge.length];
         for (int i = 0; i < edge.length; i++) {
             // 源节点到任意结点的直接距离
             dis[i] = edge[start][i];
-            bj[i] = false;
+            visited[i] = false;
         }
         //将初始点标记为已经访问过
-        bj[start] = true;
+        visited[start] = true;
         dis[start] = 0;
-        p[start] = -1;
+        pre[start] = -1;
         //核心算法
         for (int i = 0; i < edge.length; i++) {
             //findMin
@@ -37,20 +37,20 @@ public class Dijkstra {
             int min = INTFINY;
             for (int j = 0; j < edge.length; j++) {
                 // 找到没有访问过，同时也是最近的结点
-                if (!bj[j] && dis[j] < min) {
+                if (!visited[j] && dis[j] < min) {
                     min = dis[j];
                     k = j;
                 }
             }
             //将最近的节点标记为已访问
-            bj[k] = true;
+            visited[k] = true;
             //update
-            //通过刚才找到的最近节点，刷新最短路径
+            //通过刚才找到的最近节点，刷新结点距离
             for (int j = 0; j < edge.length; j++) {
-                if (!bj[j] && dis[j] > dis[k] + edge[k][j]) {
+                if (!visited[j] && dis[j] > dis[k] + edge[k][j]) {
                     dis[j] = dis[k] + edge[k][j];
                     //记录前驱
-                    p[j]=k;
+                    pre[j]=k;
                 }
             }
         }

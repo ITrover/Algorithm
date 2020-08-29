@@ -12,14 +12,20 @@ package leetcode.maxSubArray;//给定一个整数数组 nums ，找到一个具�
 // 如果你已经实现复杂度为 O(n) 的解法，尝试使用更为精妙的分治法求解。
 // Related Topics 数组 分治算法 动态规划
 
-
-//leetcode submit region begin(Prohibit modification and deletion)
+/**
+ * 贪心算法
+ * 时间复杂度 o(n)
+ * 空间复杂度 o(1)
+ */
 class Solution {
     public int maxSubArray(int[] nums) {
-        int pre = 0;
-        int maxAns = 0;
-        for (int i = 0; i < nums.length; i++) {
-            pre = Math.max(pre + i, i);
+        if (nums.length == 0){
+            return 0;
+        }
+        int pre = nums[0];
+        int maxAns = nums[0];
+        for (int i = 1; i < nums.length; i++) {
+            pre = Math.max(pre + nums[i], nums[i]);
             maxAns = Math.max(pre, maxAns);
         }
         return maxAns;

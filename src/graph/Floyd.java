@@ -33,7 +33,7 @@ public class Floyd {
             for (int j = 0; j < length; j++) {
                 for (int k = 0; k < length; k++) {
                     // 更新最短路径, 不更新自身
-                    // 插入结点，是两个结点之一，无意义。
+                    // 插入结点，如果是两个结点之一，无意义。
                     if (j != i && k != i && j != k) {
                         int len = d[j][i] + d[i][k];
                         if (len < d[j][k]) {
