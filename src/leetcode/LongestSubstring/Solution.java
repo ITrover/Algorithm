@@ -28,7 +28,6 @@ package leetcode.LongestSubstring;//给定一个字符串，请你找出其中�
  * 未完
  */
 
-//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         // 从头滑动，直到出现相同字符，停止
@@ -43,6 +42,7 @@ class Solution {
             for (int i = 1; i < length; i++) {
                 // 此处可优化，当max > length - start 时，就一定没有更长的字串了，所以退出
                 theMax = 1;
+                // 判断当前字符（i位置）是否能够与前面无重复字符重复
                 for (int j = start; j < i; j++) {
                     if (s.charAt(j) != s.charAt(i)) {
                         // 和之前的字符不同，所以最大字串长度+1
@@ -63,5 +63,9 @@ class Solution {
             return 0;
         }
     }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        solution.lengthOfLongestSubstring("abcaba");
+    }
 }
-//leetcode submit region end(Prohibit modification and deletion)
