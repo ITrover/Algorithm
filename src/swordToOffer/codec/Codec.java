@@ -4,6 +4,10 @@ import java.util.*;
 
 /**
  * @author itrover
+ * 二叉树的序列化
+ * 掌握数据结构的使用：字符串、队列
+ * 字符串的灵活使用：
+ * 字符串的构建、正则表达式、字符串的拆分
  */
 public class Codec {
     private static class TreeNode {
