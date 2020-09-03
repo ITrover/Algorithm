@@ -1,7 +1,6 @@
 package swordToOffer.minNumber;
 
 import java.util.Arrays;
-import java.util.Comparator;
 
 /**
  * @author itrover
