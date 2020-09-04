@@ -22,17 +22,13 @@ public class Solution2 {
             return n - 1;
         }
         int res = 1;
-        while (n >= 3) {
+        while (n > 4) {
             res *= 3;
             n -= 3;
         }
-        if (n == 0) {
-            return res;
-        }
-        if (n == 1) {
-            return res / 3 * 4;
-        }
-        return res * 2;
+        // n = 2,3,4
+        // 直接与上一个结果相乘即可
+        return res * n;
     }
 
     public static void main(String[] args) {
