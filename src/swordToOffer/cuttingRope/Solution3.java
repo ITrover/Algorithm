@@ -32,4 +32,9 @@ public class Solution3 {
         }
         return (int) (res * 6 % p);
     }
+
+    public static void main(String[] args) {
+        Solution3 solution3 = new Solution3();
+        solution3.cuttingRope(10);
+    }
 }
