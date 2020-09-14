@@ -11,8 +11,9 @@ package leetcode.trap;//给定 n 个非负整数表示每个宽度为 1 的柱�
 //输出: 6
 // Related Topics 栈 数组 双指针
 
-
-//leetcode submit region begin(Prohibit modification and deletion)
+/**
+ * 时间复杂度o(n*max(height))
+ */
 class Solution {
     public int trap(int[] height) {
         //按行来求
