@@ -5,6 +5,7 @@ package leetcode.carPooling;
  * @version 1.0
  * @date 2020/9/15 22:09
  * @description 1094. 拼车 (https://leetcode-cn.com/problems/car-pooling/)
+ * 以每个上车点和下车点为单位
  * 统计上车和下车的人数变化
  * 时间复杂度o(n)
  * 空间复杂度o(1)
