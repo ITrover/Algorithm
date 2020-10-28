@@ -8,6 +8,8 @@ import java.util.List;
  * 89. 格雷编码 https://leetcode-cn.com/problems/gray-code/
  * 数学推导
  * 下一阶(k)的格雷码等于上一位数的格雷码序列高位补0(对应十进制数不变) U 上一位数的格雷码序列倒序高位补1(对应十进制+2^k)
+ * 时间复杂度o(2^n)
+ * 空间复杂度o(1)
  */
 class Solution {
     public List<Integer> grayCode(int n) {
