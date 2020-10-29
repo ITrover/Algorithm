@@ -8,7 +8,7 @@ import java.util.Deque;
  * DFS
  * 先序遍历
  * 时间复杂度o(n)
- * 空间复杂度o(1)
+ * 空间复杂度o(n) 递归
  */
 class Solution {
     public class TreeNode {
