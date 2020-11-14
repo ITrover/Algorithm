@@ -1,8 +1,5 @@
 package everyday.relativeSortArray;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-
 /**
  * @author itrover
  * 1122. 数组的相对排序 https://leetcode-cn.com/problems/relative-sort-array/
