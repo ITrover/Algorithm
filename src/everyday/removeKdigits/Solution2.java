@@ -6,9 +6,8 @@ package everyday.removeKdigits;
  * 思路：通过最多删除k位，使得每个高位能最小
  * 时间复杂度o(n*k)
  * 空间复杂度o(1)
- * todo:画图
  */
-class Solution {
+class Solution2 {
     public String removeKdigits(String num, int k) {
         // 删除的位数等于数字长度
         if (num.length() == k) {
@@ -20,22 +19,12 @@ class Solution {
         int j = 0;
         for (int i = 0; i < arr.length && j < res.length; i++) {
             if (k > 0) {
-                int minus = 0;
-                int l = i + 1;
-                char max = arr[i];
-                int t = i;
-                // 去找后面比arr[i]更小的值和位置
-                while (minus < k && l < arr.length) {
-                    if (max > arr[l]) {
-                        max = arr[l];
-                        t = l;
-                    }
-                    l++;
-                    minus++;
-                }
-                res[j] = arr[t];
+                // 最小值的下标t
+                int t = findMin(arr, i, k);
+                // 删除[i,t)之间的数字
                 k -= (t - i);
                 i = t;
+                res[j] = arr[t];
             } else {
                 res[j] = arr[i];
             }
@@ -47,5 +36,25 @@ class Solution {
             j++;
         }
         return j == res.length ? "0" : new String(res, j, res.length - j);
+    }
+
+    /**
+     * 找到[start,start+n]中最小的数的下标
+     * @param arr
+     * @param start
+     * @param n
+     * @return 最小值的下标
+     */
+    int findMin(char[] arr, int start, int n) {
+        int min = arr[start];
+        int res = start;
+        for (int i = start + 1; i < arr.length && n > 0; i++) {
+            if (min > arr[i]) {
+                min = arr[i];
+                res = i;
+            }
+            n--;
+        }
+        return res;
     }
 }
