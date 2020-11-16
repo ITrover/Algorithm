@@ -22,6 +22,7 @@
 | [1325. 删除给定值的叶子节点](src/leetcode/removeLeafNodes) |          递归          |
 |         [226. 翻转二叉树](src/leetcode/invertTree)         |          递归          |
 |       [98. 验证二叉搜索树](src/leetcode/isValidBST)        | 先序遍历/递归/层次遍历 |
+|       [124. 二叉树中的最大路径和](src/tencent/maxPathSum)        | 后序遍历/递归 |
 
 
 
