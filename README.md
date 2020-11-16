@@ -126,6 +126,7 @@
 | :--------------------------------------------: | :--------: | ---- |
 |     [73. 矩阵置零](src/leetcode/setZeroes)     | 数组、技巧 |      |
 | [31. 下一个排列](src/everyday/nextPermutation) |   找规律   |      |
+| [406. 根据身高重建队列](src/everyday/reconstructQueue) |   思路、排序、插入   |      |
 
 
 
