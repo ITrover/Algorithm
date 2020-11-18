@@ -5,7 +5,6 @@ package everyday.oddEvenList;
  * 328. 奇偶链表 https://leetcode-cn.com/problems/odd-even-linked-list/
  * 链表操作
  * 双指针
- * todo:画流程图
  */
 class Solution {
 
