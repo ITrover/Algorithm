@@ -1,3 +1,4 @@
+import org.omg.PortableInterceptor.INACTIVE;
 import sort.*;
 
 import java.util.*;
@@ -17,16 +18,17 @@ public class Main {
         Integer[] integers = {1, 3, 2,7,9,20,1,0,4};
 //        sort.insertSort(integers);
 //        System.out.println(Arrays.asList(integers));
-        Main main = new Main();
-
-        // lambda表达式
-        // 编译器会判断->后面是返回值，还是一个普通的表达式
-        main.test(()-> System.out.println("nima"));
-
-        Arrays.sort(integers,(x,y)->{
-            System.out.println("这是表达式");
-            return y-x;
-        });
+        HeapSort<Integer> sort = new HeapSort<>();
+        sort.sort(integers);
+        System.out.println(Arrays.toString(integers));
+//        // lambda表达式
+//        // 编译器会判断->后面是返回值，还是一个普通的表达式
+//        main.test(()-> System.out.println("nima"));
+//
+//        Arrays.sort(integers,(x,y)->{
+//            System.out.println("这是表达式");
+//            return y-x;
+//        });
 
 
     }
