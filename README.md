@@ -39,6 +39,7 @@
 |       [300. 最长上升子序列](src/leetcode/lengthOfLIS)        | 动态规划、二分查找、贪心算法 | 重点题 |
 | [1143. 最长公共子序列](src/leetcode/longestCommonSubsequence) |           动态规划           | 重点题 |
 |        [416. 分割等和子集](src/everyday/canPartition)        |     动态规划/0-1背包问题     | 重点题 |
+|        [LCP 19. 秋叶收藏集](src/everyday/minimumOperations)        |     动态规划   | 重点题 |
 
 
 
