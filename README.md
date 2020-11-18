@@ -138,7 +138,7 @@
 |  [327. 区间和的个数](src/everyday/countRangeSum)  | 归并排序、动态规划、分治 | 重点题 |
 | [973. 最接近原点的 K 个点](src/everyday/kClosest) |    快速排序/优先队列     |        |
 | [1122. 数组的相对排序](src/everyday/relativeSortArray) |    修改排序规则/计数     |        |
-| [1030. 距离顺序排列矩阵单元格](src/everyday/allCellsDistOrder) |    桶排序/排序/BFS/几何法     |        |
+| [1030. 距离顺序排列矩阵单元格](src/everyday/allCellsDistOrder) |    桶排序/排序/BFS/几何法``     |        |
 
 
 ### 贪心算法
@@ -147,6 +147,7 @@
 | :----------------------------------------------------------: | :----------------: | ---- |
 | [122. 买卖股票的最佳时机 II](src/swordToOffer/maxProfit/improve) | 贪心算法、动态规划 |      |
 | [402. 移掉K位数字](src/everyday/removeKdigits) | 贪心算法/单调栈（注意越界问题） |      |
+| [134. 加油站 ](src/everyday/canCompleteCircuit) | 贪心算法、枚举 | 重点题      |
 
 
 
