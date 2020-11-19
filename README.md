@@ -69,6 +69,7 @@
 | :----------------------------------------------------: | :---------: |
 | [941. 有效的山脉数组](src/everyday/validMountainArray) | 双指针/模拟 |
 | [328. 奇偶链表](src/everyday/oddEvenList) | 双指针、链表操作 | 重点题 |
+| [283. 移动零](src/everyday/moveZeroes) | 双指针 | 重点题 |
 
 
 
