@@ -106,6 +106,7 @@
 | :--------------------------------------: | :--------------------: | ------ |
 | [146. LRU缓存机制](src/tencent/LRUCache) | 双向链表/LinkedHashMap | 重点题 |
 | [147. 对链表进行插入排序](src/everyday/insertionSortList) | 链表、伪头 |  |
+| [148. 排序链表](src/everyday/sortList) | 链表、递归、归并排序 |  |
 
 
 
