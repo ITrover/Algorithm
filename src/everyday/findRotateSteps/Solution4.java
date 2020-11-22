@@ -38,6 +38,7 @@ class Solution4 {
             for (int j : pos[key.charAt(i) - 'a']) {
                 // 计算从上一步到这一步的最短路径，多个起点，多个终点，分别找到最短路径
                 for (int k : pos[key.charAt(i - 1) - 'a']) {
+                    // 到下一位置分为顺时针和逆时针，使用最少步数的方向
                     dp[i][j] = Math.min(dp[i][j], dp[i - 1][k] + Math.min(Math.abs(j - k), n - Math.abs(j - k)) + 1);
                 }
             }
