@@ -30,8 +30,8 @@
 
 
 
-### 动态规划
-
+### 动态规划`
+`
 |                             题目                             |            关键字            |        |
 | :----------------------------------------------------------: | :--------------------------: | ------ |
 | [1277. 统计全为 1 的正方形子矩阵](src/leetcode/countSquares) |           动态规划           |        |
@@ -40,6 +40,7 @@
 | [1143. 最长公共子序列](src/leetcode/longestCommonSubsequence) |           动态规划           | 重点题 |
 |        [416. 分割等和子集](src/everyday/canPartition)        |     动态规划/0-1背包问题     | 重点题 |
 |        [LCP 19. 秋叶收藏集](src/everyday/minimumOperations)        |     动态规划   | 重点题 |
+|        [514. 自由之路](src/everyday/findRotateSteps)        |     动态规划、dfs   | 重点题 |
 
 
 
