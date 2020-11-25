@@ -42,6 +42,7 @@
 |        [LCP 19. 秋叶收藏集](src/everyday/minimumOperations)        |     动态规划   | 重点题 |
 |        [514. 自由之路](src/everyday/findRotateSteps)        |     动态规划、dfs   | 重点题 |
 |        [零钱兑换](src/everyday/coinChange)        |     动态规划、dfs   | 重点题 |
+|        [309. 最佳买卖股票时机含冷冻期 ](src/swordToOffer/maxProfit/improve2)        |     动态规划、bfs   | 重点题 |
 
 
 
