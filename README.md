@@ -147,7 +147,8 @@
 |  [327. 区间和的个数](src/everyday/countRangeSum)  | 归并排序、动态规划、分治 | 重点题 |
 | [973. 最接近原点的 K 个点](src/everyday/kClosest) |    快速排序/优先队列     |        |
 | [1122. 数组的相对排序](src/everyday/relativeSortArray) |    修改排序规则/计数     |        |
-| [1030. 距离顺序排列矩阵单元格](src/everyday/allCellsDistOrder) |    桶排序/排序/BFS/几何法``     |        |
+| [1030. 距离顺序排列矩阵单元格](src/everyday/allCellsDistOrder) |    桶排序/排序/BFS/几何     |        |
+| [164. 最大间距](src/everyday/maximumGap) |    桶排序/基数排序    |        |
 
 
 ### 贪心算法
