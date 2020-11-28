@@ -152,6 +152,7 @@
 | [1122. 数组的相对排序](src/everyday/relativeSortArray) |    修改排序规则/计数     |        |
 | [1030. 距离顺序排列矩阵单元格](src/everyday/allCellsDistOrder) |    桶排序/排序/BFS/几何     |        |
 | [164. 最大间距](src/everyday/maximumGap) |    桶排序/基数排序    |        |
+| [剑指Offer45.把数组排成最小的数](src/swordToOffer/minNumber) |    修改排序规则    |  重点题      |
 
 
 ### 贪心算法

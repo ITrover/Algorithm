@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * @author itrover
- * 剑指Offer45.把数组排成最小的数
+ * 剑指Offer45.把数组排成最小的数 https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/
  * 本质上就是一个排序问题
  * 定义一个排序规则
  *
