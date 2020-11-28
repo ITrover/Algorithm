@@ -1,8 +1,8 @@
 package swordToOffer.isSubStructure;
 
-import com.sun.istack.internal.localization.NullLocalizable;
-
 /**
+ * @author itrover
+ * 剑指 Offer 26. 树的子结构 https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof/
  * 判断A是否为B的子结构
  * 先找到A中 对应B的根节点
  * 然后同时遍历，如果出现不相等，则不是子结构

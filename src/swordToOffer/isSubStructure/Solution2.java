@@ -1,8 +1,5 @@
 package swordToOffer.isSubStructure;
 
-import com.sun.istack.internal.localization.NullLocalizable;
-import com.sun.org.apache.bcel.internal.generic.FADD;
-
 /**
  * Solution的易读版
  * 思路都是
@@ -31,17 +28,15 @@ class Solution2 {
             if (A.val == B.val) {
                 result = visit(A, B);
             }
-
             // 如果result为false，同时A和B都不为空，那么还可能存在子结构
             // 分别从左右出发，去比较、
             // 重新选择根节点
             if (!result) {
-                result = visit(A.left, B);
+                result = isSubStructure(A.left, B);
             }
             if (!result) {
-                result = visit(A.right, B);
+                result = isSubStructure(A.right, B);
             }
-
         }
         return result;
     }
@@ -59,7 +54,6 @@ class Solution2 {
         if (B == null) {
             return true;
         }
-
         if (A == null || A.val != B.val) {
             return false;
         }

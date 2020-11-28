@@ -17,13 +17,14 @@
 
 ### 树的遍历
 
-|                            题目                            |         关键字         |
-| :--------------------------------------------------------: | :--------------------: |
-|   [129. 求根到叶子节点数字之和](src/everyday/sumNumbers)   |     先序遍历、递归     |
-| [1325. 删除给定值的叶子节点](src/leetcode/removeLeafNodes) |          递归          |
-|         [226. 翻转二叉树](src/leetcode/invertTree)         |          递归          |
-|       [98. 验证二叉搜索树](src/leetcode/isValidBST)        | 先序遍历/递归/层次遍历 |
-|       [124. 二叉树中的最大路径和](src/tencent/maxPathSum)        | 后序遍历/递归 |
+|                            题目                            |         关键字         |                  |
+| :--------------------------------------------------------: | :--------------------: | ---------------------- |
+|   [129. 求根到叶子节点数字之和](src/everyday/sumNumbers)   |     先序遍历、递归     |          |
+| [1325. 删除给定值的叶子节点](src/leetcode/removeLeafNodes) |          递归          |                    |
+|         [226. 翻转二叉树](src/leetcode/invertTree)         |          递归          |                    |
+|       [98. 验证二叉搜索树](src/leetcode/isValidBST)        | 先序遍历/递归/层次遍历 |  |
+|       [124. 二叉树中的最大路径和](src/tencent/maxPathSum)        | 后序遍历/递归 |  |
+|       [剑指 Offer 26. 树的子结构](src/swordToOffer/isSubStructure)        | 递归、树的遍历、穷举 | 重点题 |
 
 
 
