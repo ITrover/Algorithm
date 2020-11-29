@@ -4,6 +4,11 @@ import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * @author itrover
+ * 剑指 Offer 38. 字符串的排列 https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/
+ * 回溯、dfs、剪枝
+ */
 class Solution {
     List<String> res = new LinkedList<>();
     char[] c;

@@ -5,6 +5,9 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
+ * @author itrover
+ * 剑指 Offer 38. 字符串的排列 https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/
+ * 回溯、dfs、剪枝
  * 和第一个算法就是一样的，只是数组一个放在参数上，一个放在了属性里
  */
 class Solution2 {
