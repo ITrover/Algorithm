@@ -3,10 +3,9 @@ package swordToOffer.uglyNumber;
 /**
  * @author MaYunHao
  * @version 1.0
- * @description
- * @date 2020/7/13 15:11
+ * 剑指 Offer 49. 丑数 https://leetcode-cn.com/problems/chou-shu-lcof/
+ * 动态规划
  */
-
 class Solution {
     public int nthUglyNumber(int n) {
         // 记录因子相乘的位置
@@ -18,7 +17,7 @@ class Solution {
             int n2 = dp[a] * 2, n3 = dp[b] * 3, n5 = dp[c] * 5;
             // 找到最小的
             dp[i] = Math.min(Math.min(n2, n3), n5);
-            // 此时选出的就是最小的，下次选出的，一定比这个大
+            // 最多移动一步，如果当前最小值是通过当前位置乘以因子获得的，则后移，下次获得的数一定比当前大
             if(dp[i] == n2) {
                 a++;
             }

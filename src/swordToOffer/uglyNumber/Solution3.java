@@ -12,19 +12,25 @@ class Solution3 {
         if (n <= 0) {
             return 0;
         }
+        // 含义：第i个位置表示第i个丑数
         int[] uglies = new int[n];
+        // 初始条件
         uglies[0] = 1;
-        int ugly1 = 0;
+        // 乘2的位置
+        int ugly2 = 0;
+        // 乘3的位置
         int ugly3 = 0;
+        // 乘5的位置
         int ugly5 = 0;
         int uglyIndex = 1;
         while (uglyIndex < n) {
+            // 最优子结构
             // 三个可能的丑数，找到最小的
-            int min = Math.max(Math.min(uglies[ugly1] * 2, uglies[uglies[ugly3] * 3]), uglies[ugly5] * 5);
+            int min = Math.min(Math.min(uglies[ugly2] * 2, uglies[ugly3] * 3), uglies[ugly5] * 5);
             uglies[uglyIndex] = min;
-            // 找到小于当前丑数的位置
-            while (uglies[ugly1] * 2 <= uglies[uglyIndex]) {
-                ugly1++;
+            // 找到乘以因子后大于当前丑数的位置
+            while (uglies[ugly2] * 2 <= uglies[uglyIndex]) {
+                ugly2++;
             }
             while (uglies[ugly3] * 3 <= uglies[uglyIndex]) {
                 ugly3++;
