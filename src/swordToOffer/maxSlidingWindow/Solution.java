@@ -1,6 +1,8 @@
 package swordToOffer.maxSlidingWindow;
 
 /**
+ * @author itrover
+ * 剑指 Offer 59 - I. 滑动窗口的最大值 https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/
  * 蛮力法
  * 时间复杂度 o(n*k)
  * 空间复杂度 o(n)

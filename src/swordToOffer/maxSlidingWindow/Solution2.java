@@ -5,6 +5,8 @@ import java.util.LinkedList;
 import java.util.Stack;
 
 /**
+ * @author itrover
+ * 剑指 Offer 59 - I. 滑动窗口的最大值 https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/
  * 使用双端队列
  * 时间复杂度 o(n)
  * 空间复杂度 o(k)
@@ -28,7 +30,7 @@ class Solution2 {
         res[0] = deque.peekFirst();
         // 形成窗口后
         for(int i = k; i < nums.length; i++) {
-            // 删除前一个窗口对应的第一个值，在下一个窗口删除
+            // 删除前一个窗口对应的第一个值
             if(deque.peekFirst() == nums[i - k]) {
                 deque.removeFirst();
             }
