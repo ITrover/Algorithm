@@ -116,6 +116,7 @@
 | [147. 对链表进行插入排序](src/everyday/insertionSortList) | 链表、伪头 |  |
 | [148. 排序链表](src/everyday/sortList) | 链表、递归、归并排序 |  |
 | [237. 删除链表中的节点](src/tencent/deleteNode) | 链表操作 |  |
+| [剑指 Offer 24. 反转链表](src/swordToOffer/reverseList) | 双指针/递归/栈 |  |
 
 
 

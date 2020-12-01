@@ -1,6 +1,8 @@
 package swordToOffer.reverseList;
 
 /**
+ * @author itrover
+ * 剑指 Offer 24. 反转链表 https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/
  * 递归
  *  时间复杂度o(n)
  *  空间复杂度o(1)
