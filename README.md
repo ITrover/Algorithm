@@ -26,6 +26,7 @@
 |       [124. 二叉树中的最大路径和](src/tencent/maxPathSum)        | 后序遍历/递归 |  |
 |       [剑指 Offer 26. 树的子结构](src/swordToOffer/isSubStructure)        | 递归、树的遍历、穷举 | 重点题 |
 |       [剑指 Offer 68 - II. 二叉树的最近公共祖先](src/swordToOffer/lowestCommonAncestor)        | 递归 | 重点题 |
+|       [230. 二叉搜索树中第K小的元素](src/tencent/kthSmallest)        |中序遍历 |  |
 
 
 
