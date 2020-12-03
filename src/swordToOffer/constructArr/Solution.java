@@ -1,6 +1,8 @@
 package swordToOffer.constructArr;
 
 /**
+ * @author itrover
+ * 剑指 Offer 66. 构建乘积数组 https://leetcode-cn.com/problems/gou-jian-cheng-ji-shu-zu-lcof/
  * 蛮力法
  * 时间复杂度o(n*n)
  * 空间复杂度o(1)

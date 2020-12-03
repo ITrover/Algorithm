@@ -3,6 +3,8 @@ package swordToOffer.constructArr;
 import java.util.Arrays;
 
 /**
+ * @author itrover
+ * 剑指 Offer 66. 构建乘积数组 https://leetcode-cn.com/problems/gou-jian-cheng-ji-shu-zu-lcof/
  * 动态规划，累乘，矩阵，下三角，上三角
  * 时间复杂度o(n)
  * 空间复杂度o(1)
