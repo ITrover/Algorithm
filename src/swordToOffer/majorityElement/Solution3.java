@@ -1,13 +1,8 @@
 package swordToOffer.majorityElement;
 
 /**
- * @author MaYunHao
- * @version 1.0
- * @description
- * @date 2020/7/22 20:05
- */
-
-/**
+ * @author itrover
+ * 169. 多数元素 https://leetcode-cn.com/problems/majority-element/
  * 如果存在超过一半的数
  * 那么那个书一定出现再中间位置
  *
@@ -41,6 +36,13 @@ public class Solution3 {
         return 0;
     }
 
+    /**
+     * 快排的子操作
+     * @param nums
+     * @param start
+     * @param end
+     * @return
+     */
     public int partition(int[] nums, int start, int end) {
         // 中轴
         int tmp = nums[start];
@@ -63,7 +65,12 @@ public class Solution3 {
         return start;
     }
 
-
+    /**
+     * 检查是否元素过半
+     * @param nums
+     * @param k
+     * @return
+     */
     public boolean checkMoreThanHalf(int[] nums, int k) {
         int times = 0;
         int half = nums.length / 2;

@@ -148,6 +148,7 @@
 | [406. 根据身高重建队列](src/everyday/reconstructQueue) |   思路、排序、插入   |      |
 | [剑指 Offer 64. 求1+2+…+n](src/swordToOffer/sumNums) |   技巧性、&&短路的利用   |      |
 | [剑指 Offer 66. 构建乘积数组](src/swordToOffer/constructArr) |   技巧性、规律   |      |
+| [169. 多数元素](src/swordToOffer/majorityElement) |   摩尔投票法/哈希/快排思想   |      |
 
 
 

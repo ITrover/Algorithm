@@ -1,9 +1,10 @@
 package swordToOffer.majorityElement;
 
 /**
+ * @author itrover
+ * 169. 多数元素 https://leetcode-cn.com/problems/majority-element/
  * 摩尔投票法
  * 正负相互抵消
- *
  * 时间复杂度 o(n)
  * 空间复杂度 o(1)
  */

@@ -5,14 +5,11 @@ import java.util.Iterator;
 import java.util.Set;
 
 /**
- * @author MaYunHao
- * @version 1.0
- * @description
- * @date 2020/7/22 19:57
- */
-
-/**
+ * @author itrover
+ * 169. 多数元素 https://leetcode-cn.com/problems/majority-element/
  * 使用hash表记录每个数出现的个数
+ * 时间复杂度o(n)
+ * 空间复杂度o(n)
  */
 public class Solution2 {
     public int majorityElement(int[] nums) {
@@ -30,6 +27,6 @@ public class Solution2 {
                 return num;
             }
         }
-        return  0;
+        return 0;
     }
 }
