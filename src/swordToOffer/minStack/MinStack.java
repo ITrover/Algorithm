@@ -2,6 +2,10 @@ package swordToOffer.minStack;
 
 import java.util.Stack;
 
+/**
+ * @author itrover
+ * 剑指 Offer 30. 包含min函数的栈 https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/
+ */
 class MinStack {
 
     public Stack<Integer> data;
