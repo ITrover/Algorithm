@@ -25,7 +25,7 @@ class MinStack2 {
     }
 
     public void pop() {
-        // 一定不能用 == ，放回的是对象
+        // 一定不能用 == ，返回的是对象
         if(!min.isEmpty() && min.peek().equals(data.pop()) ){
             min.pop();
         }
