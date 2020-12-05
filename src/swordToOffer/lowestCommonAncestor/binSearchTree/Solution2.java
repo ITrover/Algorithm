@@ -5,7 +5,7 @@ package swordToOffer.lowestCommonAncestor.binSearchTree;
  *
  * 递归
  * 时间复杂度o(n)
- * 空间复杂度o(n)，递归深度
+ * 空间复杂度o(h)，h为递归深度
  */
 class Solution2 {
     public class TreeNode {

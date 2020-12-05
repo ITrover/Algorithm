@@ -27,6 +27,7 @@
 |       [剑指 Offer 26. 树的子结构](src/swordToOffer/isSubStructure)        | 递归、树的遍历、穷举 | 重点题 |
 |       [剑指 Offer 68 - II. 二叉树的最近公共祖先](src/swordToOffer/lowestCommonAncestor)        | 递归 | 重点题 |
 |       [230. 二叉搜索树中第K小的元素](src/tencent/kthSmallest)        |中序遍历 |  |
+|       [剑指 Offer 68 - I. 二叉搜索树的最近公共祖先](src/swordToOffer/lowestCommonAncestor)        |迭代、递归、二叉搜索树的特性、后序遍历 |  |
 
 
 
