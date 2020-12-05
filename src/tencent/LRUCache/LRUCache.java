@@ -12,7 +12,7 @@ import java.util.Map;
  * 使用伪头和伪尾部
  */
 public class LRUCache {
-    class DLinkedNode {
+    static class DLinkedNode {
         int key;
         int value;
         DLinkedNode prev;
@@ -21,7 +21,7 @@ public class LRUCache {
         public DLinkedNode(int _key, int _value) {key = _key; value = _value;}
     }
 
-    private Map<Integer, DLinkedNode> cache = new HashMap<Integer, DLinkedNode>();
+    private Map<Integer, DLinkedNode> cache = new HashMap<>();
     private int size;
     private int capacity;
     private DLinkedNode head, tail;
@@ -55,12 +55,14 @@ public class LRUCache {
             cache.put(key, newNode);
             // 添加至双向链表的头部
             addToHead(newNode);
+            // 新加了一个结点，大小+1
             ++size;
             if (size > capacity) {
                 // 如果超出容量，删除双向链表的尾部节点
                 DLinkedNode tail = removeTail();
                 // 删除哈希表中对应的项
                 cache.remove(tail.key);
+                // 删除过期结点，大小-1
                 --size;
             }
         }

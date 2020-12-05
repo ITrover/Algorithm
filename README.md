@@ -10,6 +10,7 @@
 | [381. O(1) 时间插入、删除和获取随机元素 - 允许重复](src/everyday/RandomizedCollection) | 哈希表、技巧、数据结构组合使用 | 重点题 |
 | [42. 有效的字母异位词](src/everyday/isAnagram) | 哈希表、数组、排序 |  |
 | [454. 四数相加 II](src/everyday/fourSumCount) | 哈希表 |  |
+| [146. LRU缓存机制](src/tencent/LRUCache) | 哈希表、双向链表 | 重点题 |
 
 
 
