@@ -153,6 +153,7 @@
 | [剑指 Offer 66. 构建乘积数组](src/swordToOffer/constructArr) |   技巧性、规律   |      |
 | [169. 多数元素](src/swordToOffer/majorityElement) |   摩尔投票法/哈希/快排思想   |      |
 | [剑指 Offer 30. 包含min函数的栈](src/swordToOffer/minStack) |   使用辅助栈   |      |
+| [43. 字符串相乘](src/tencent/multiply) |   字符串相乘   |   重点题   |
 
 
 
