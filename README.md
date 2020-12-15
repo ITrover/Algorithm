@@ -178,6 +178,7 @@
 | [402. 移掉K位数字](src/everyday/removeKdigits) | 贪心算法/单调栈（注意越界问题） |      |
 | [134. 加油站 ](src/everyday/canCompleteCircuit) | 贪心算法、枚举 | 重点题      |
 | [452. 用最少数量的箭引爆气球 ](src/everyday/findMinArrowShots) | 贪心算法、排序、区间合并 | 重点题      |
+| [738. 单调递增的数字 ](src/everyday/monotoneIncreasingDigits) | 贪心算法、发现规律 | 重点题      |
 
 
 
