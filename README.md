@@ -11,6 +11,7 @@
 | [42. 有效的字母异位词](src/everyday/isAnagram) | 哈希表、数组、排序 |  |
 | [454. 四数相加 II](src/everyday/fourSumCount) | 哈希表 |  |
 | [146. LRU缓存机制](src/tencent/LRUCache) | 哈希表、双向链表 | 重点题 |
+| [290. 单词规律](src/everyday/wordPattern) | 哈希表、双向映射 | 重点题 |
 
 
 
