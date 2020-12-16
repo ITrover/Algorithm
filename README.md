@@ -82,6 +82,7 @@
 | [283. 移动零](src/everyday/moveZeroes) | 双指针 | 重点题 |
 | [922. 按奇偶排序数组 II](src/everyday/sortArrayByParityII) | 双指针 |  |
 | [剑指 Offer 52. 两个链表的第一个公共节点](src/swordToOffer/getIntersectionNode) | 双指针、技巧 | |
+| [524. 通过删除字母匹配到字典里最长单词](src/leetcode/findLongestWord) | 双指针 | |
 
 
 
