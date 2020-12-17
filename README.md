@@ -182,6 +182,7 @@
 | [452. 用最少数量的箭引爆气球 ](src/everyday/findMinArrowShots) | 贪心算法、排序、区间合并 | 重点题      |
 | [738. 单调递增的数字 ](src/everyday/monotoneIncreasingDigits) | 贪心算法、发现规律 | 重点题      |
 | [714. 买卖股票的最佳时机含手续费](src/swordToOffer/maxProfit/improve4) | 贪心算法、动态规划 | 重点题      |
+| [455. 分发饼干](src/leetcode/findContentChildren) | 排序 + 贪心算法 |       |
 
 
 
