@@ -171,6 +171,7 @@
 | [164. 最大间距](src/everyday/maximumGap) |    桶排序/基数排序    |        |
 | [剑指Offer45.把数组排成最小的数](src/swordToOffer/minNumber) |    修改排序规则    |  重点题      |
 | [49. 字母异位词分组](src/everyday/groupAnagrams) |    排序/计数、哈希    |  重点题      |
+| [75. 颜色分类](src/leetcode/sortColors) |   桶排序    |        |
 
 
 ### 贪心算法
