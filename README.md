@@ -49,6 +49,7 @@
 |        [零钱兑换](src/everyday/coinChange)        |     动态规划、dfs   | 重点题 |
 |        [309. 最佳买卖股票时机含冷冻期 ](src/swordToOffer/maxProfit/improve2)        |     动态规划、bfs   | 重点题 |
 |        [剑指 Offer 49. 丑数](src/swordToOffer/uglyNumber)        |     动态规划   | 重点题 |
+|        [746. 使用最小花费爬楼梯](src/everyday/minCostClimbingStairs)        |     动态规划   | 重点题 |
 
 
 
