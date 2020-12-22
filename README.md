@@ -30,7 +30,7 @@
 |       [剑指 Offer 68 - II. 二叉树的最近公共祖先](src/swordToOffer/lowestCommonAncestor)        | 递归 | 重点题 |
 |       [230. 二叉搜索树中第K小的元素](src/tencent/kthSmallest)        |中序遍历 |  |
 |       [剑指 Offer 68 - I. 二叉搜索树的最近公共祖先](src/swordToOffer/lowestCommonAncestor)        |迭代、递归、二叉搜索树的特性、后序遍历 |  |
-|       [103. 二叉树的锯齿形层序遍历](src/everyday/zigzagLevelOrder)        |DFS、BFS、队列 |  |
+|       [103. 二叉树的锯齿形层序遍历](src/everyday/zigzagLevelOrder)        |DFS、BFS、队列 | 重点题  |
 
 
 
