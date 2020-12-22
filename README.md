@@ -187,6 +187,7 @@
 | [738. 单调递增的数字 ](src/everyday/monotoneIncreasingDigits) | 贪心算法、发现规律 | 重点题      |
 | [714. 买卖股票的最佳时机含手续费](src/swordToOffer/maxProfit/improve4) | 贪心算法、动态规划 | 重点题      |
 | [455. 分发饼干](src/leetcode/findContentChildren) | 排序 + 贪心算法 |       |
+| [605. 种花问题](src/leetcode/canPlaceFlowers) | 贪心、判断条件考虑周全 |       |
 
 
 
