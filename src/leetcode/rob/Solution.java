@@ -2,8 +2,9 @@ package leetcode.rob;
 
 /**
  * @author itrover
- * 动态规划
  * 198. 打家劫舍 https://leetcode-cn.com/problems/house-robber/
+ * 动态规划
+ * 第i家时的最大收获为，Math.max(盗窃当前这个 + i - 2盗窃 , 昨天盗窃获得 i - 1)
  */
 class Solution {
     public int rob(int[] nums) {
