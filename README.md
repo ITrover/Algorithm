@@ -179,6 +179,7 @@
 | [49. 字母异位词分组](src/everyday/groupAnagrams) |    排序/计数、哈希    |  重点题      |
 | [75. 颜色分类](src/leetcode/sortColors) |   桶排序/双指针/技巧    |        |
 | [451. 根据字符出现频率排序](src/leetcode/frequencySort) |   哈希、桶排序、堆排序   |        |
+| [1046. 最后一块石头的重量](src/everyday/lastStoneWeight) |   大顶堆   |        |
 
 
 ### 贪心算法
