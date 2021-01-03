@@ -91,6 +91,7 @@
 | [524. 通过删除字母匹配到字典里最长单词](src/leetcode/findLongestWord) | 双指针 | |
 | [392. 判断子序列](src/leetcode/isSubsequence) | 双指针/String的indexOf方法 | |
 | [435. 无重叠区间](src/everyday/eraseOverlapIntervals) | 双指针/按照末尾排序 | |
+| [86. 分隔链表](src/everyday/partition) | 双指针 | |
 
 
 
