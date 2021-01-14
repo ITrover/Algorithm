@@ -78,6 +78,8 @@ class DisjointSetUnion {
             return;
         }
         // 保证fx中的子集大于fy的
+        // 由于每次被合的都是最小的，同时修改的是代表元的父元素
+        // 所以能够保证同一个子集中的代表元最终都是一致的
         if (rank[fx] < rank[fy]) {
             int temp = fx;
             fx = fy;

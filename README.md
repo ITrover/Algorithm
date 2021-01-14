@@ -259,3 +259,4 @@
 |                      题目                      |         关键字         |        |
 | :--------------------------------------------: | :--------------------: | ------ |
 |    [1202. 交换字符串中的元素](src/everyday/smallestStringWithSwaps)     | 并查集  |       |
+|    [684. 冗余连接](src/everyday/findRedundantConnection)     | 并查集  |       |
