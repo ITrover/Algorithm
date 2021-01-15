@@ -235,6 +235,7 @@
 | :--------------------------------------------: | :--------------------: | ------ |
 |    [剑指 Offer 59 - I. 滑动窗口的最大值](src/swordToOffer/maxSlidingWindow)     |  双端队列、单调队列  |  重点题     |
 |    [239. 滑动窗口最大值](src/everyday/maxSlidingWindow)     |  双端队列、单调队列  |  重点题     |
+|    [DD-2020006. 简单游戏](src/swordToOffer/maxSlidingWindow/improve)     |  滑动窗口、贪心算法  |  重点题     |
 
 
 ### 前缀和
