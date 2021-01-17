@@ -211,6 +211,7 @@
 |    [258. 各位相加](src/leetcode/addDigits)     |  递归、找规律、表达式  |        |
 | [172. 阶乘后的零](src/leetcode/trailingZeroes) | 数学公式、技巧、找因子 | 重点题 |
 | [231. 2的幂](src/tencent/isPowerOfTwo) | 余/二进制 | 重点题 |
+| [1232. 缀点成线](src/everyday/checkStraightLine) | 斜率 |  |
 
 
 ### 二分查找
