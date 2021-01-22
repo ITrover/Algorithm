@@ -132,6 +132,7 @@
 | [148. 排序链表](src/everyday/sortList) | 链表、递归、归并排序 |  |
 | [237. 删除链表中的节点](src/tencent/deleteNode) | 链表操作 |  |
 | [剑指 Offer 24. 反转链表](src/swordToOffer/reverseList) | 双指针/递归/栈 |  |
+| [89. 数组形式的整数加法](src/everyday/addToArrayForm) | /栈/链表/数组/题目条件 |  |
 
 
 
