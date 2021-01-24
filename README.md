@@ -201,7 +201,7 @@
 | [605. 种花问题](src/leetcode/canPlaceFlowers) | 贪心、判断条件考虑周全 |       |
 | [665. 非递减数列 ](src/leetcode/checkPossibility) | 贪心、分情况讨论 | 重点题      |
 | [135. 分发糖果](src/everyday/candy) | 贪心 | 重点题      |
-
+| [674. 最长连续递增序列](src/everyday/findLengthOfLCIS) | 贪心 | 重点题      |
 
 
 
