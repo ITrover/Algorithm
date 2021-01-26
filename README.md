@@ -13,6 +13,7 @@
 | [146. LRU缓存机制](src/tencent/LRUCache) | 哈希表、双向链表 | 重点题 |
 | [290. 单词规律](src/everyday/wordPattern) | 哈希表、双向映射 | 重点题 |
 | [205. 同构字符串](src/everyday/isIsomorphic) | 哈希表、双向映射 |  |
+| [1128. 等价多米诺骨牌对的数量](src/everyday/numEquivDominoPairs) | Map/数组、计数 |  |
 
 
 
