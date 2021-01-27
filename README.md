@@ -266,3 +266,4 @@
 |    [1202. 交换字符串中的元素](src/everyday/smallestStringWithSwaps)     | 并查集  |       |
 |    [684. 冗余连接](src/everyday/findRedundantConnection)     | 并查集  |       |
 |    [1319. 连通网络的操作次数](src/everyday/makeConnected)     | 并查集  |       |
+|    [1579. 保证图可完全遍历](src/everyday/maxNumEdgesToRemove)     | 并查集  |       |
