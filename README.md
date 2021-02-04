@@ -241,6 +241,7 @@
 |    [239. 滑动窗口最大值](src/everyday/maxSlidingWindow)     |  双端队列、单调队列  |  重点题     |
 |    [DD-2020006. 简单游戏](src/swordToOffer/maxSlidingWindow/improve)     |  滑动窗口、贪心算法  |  重点题     |
 |    [424. 替换后的最长重复字符](src/everyday/characterReplacement)     |  滑动窗口、双指针  |  重点题     |
+|    [643. 子数组最大平均数 I](src/everyday/findMaxAverage)     |  滑动窗口  |       |
 
 
 ### 前缀和
