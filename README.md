@@ -243,6 +243,7 @@
 |    [DD-2020006. 简单游戏](src/swordToOffer/maxSlidingWindow/improve)     |  滑动窗口、贪心算法  |  重点题     |
 |    [424. 替换后的最长重复字符](src/everyday/characterReplacement)     |  滑动窗口、双指针  |  重点题     |
 |    [643. 子数组最大平均数 I](src/everyday/findMaxAverage)     |  滑动窗口  |       |
+|    [1423. 可获得的最大点数](src/everyday/maxScore)     |  滑动窗口/前缀和  |       |
 
 
 ### 前缀和
