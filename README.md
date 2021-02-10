@@ -247,6 +247,7 @@
 |    [643. 子数组最大平均数 I](src/everyday/findMaxAverage)     |  滑动窗口  |       |
 |    [1423. 可获得的最大点数](src/everyday/maxScore)     |  滑动窗口/前缀和  |       |
 | [992. K 个不同整数的子数组](src/everyday/subarraysWithKDistinct) | 滑动窗口 | 重点题 |
+| [567. 字符串的排列](src/everyday/checkInclusion) | 滑动窗口 |  |
 
 
 ### 前缀和
