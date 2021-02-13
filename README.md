@@ -173,6 +173,7 @@
 | [剑指 Offer 30. 包含min函数的栈](src/swordToOffer/minStack) |   使用辅助栈   |      |
 | [43. 字符串相乘](src/tencent/multiply) |   字符串相乘   |   重点题   |
 | [907. 子数组的最小值之和](src/bytedance/sumSubarrayMins) |   最小栈   |   重点题   |
+| [448. 找到所有数组中消失的数字](src/everyday/findDisappearedNumbers) |   数组原地修改   |   重点题   |
 
 
 
@@ -190,6 +191,7 @@
 | [75. 颜色分类](src/leetcode/sortColors) |   桶排序/双指针/技巧    |        |
 | [451. 根据字符出现频率排序](src/leetcode/frequencySort) |   哈希、桶排序、堆排序   |        |
 | [1046. 最后一块石头的重量](src/everyday/lastStoneWeight) |   大顶堆   |        |
+| [703. 数据流中的第 K 大元素](src/everyday/KthLargest) |   小顶堆   |   重点题     |
 
 
 ### 贪心算法
