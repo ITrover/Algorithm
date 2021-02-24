@@ -98,7 +98,7 @@
 | [435. 无重叠区间](src/everyday/eraseOverlapIntervals) | 双指针/按照末尾排序 | |
 | [86. 分隔链表](src/everyday/partition) | 双指针 | |
 | [978. 最长湍流子数组](src/everyday/maxTurbulenceSize) | 双指针/动态规划 | |
-
+| [832. 翻转图像](src/everyday/flipAndInvertImage) | 双指针 | |
 
 
 ### 字典树
