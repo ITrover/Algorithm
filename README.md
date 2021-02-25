@@ -70,6 +70,7 @@
 |       [88. 合并两个有序数组](src/tencent/spiralOrder)       |   模拟、数组   |  |
 |       [189. 旋转数组](src/everyday/rotate)       |   模拟、向前冒泡|  |
 |       [1018. 可被 5 整除的二进制前缀](src/everyday/prefixesDivBy5)       |   模拟，暴力求解|  |
+|       [867. 转置矩阵](src/everyday/transpose)       |   模拟|  |
 
 
 
