@@ -282,3 +282,9 @@
 |    [684. 冗余连接](src/everyday/findRedundantConnection)     | 并查集  |       |
 |    [1319. 连通网络的操作次数](src/everyday/makeConnected)     | 并查集  |       |
 |    [1579. 保证图可完全遍历](src/everyday/maxNumEdgesToRemove)     | 并查集  |       |
+
+### BFS
+
+|                      题目                      |         关键字         |        |
+| :--------------------------------------------: | :--------------------: | ------ |
+|    [1091. 二进制矩阵中的最短路径](src/leetcode/shortestPathBinaryMatrix)     | BFS  |   重点题    |
