@@ -253,6 +253,7 @@
 | [567. 字符串的排列](src/everyday/checkInclusion) | 滑动窗口 |  |
 | [1438. 绝对差不超过限制的最长连续子数组](src/everyday/longestSubarray) | 滑动窗口、有序集合、单调队列 |  |
 | [1052. 爱生气的书店老板](src/everyday/maxSatisfied) | 滑动窗口 |  |
+| [395. 至少有 K 个重复字符的最长子串](src/everyday/longestSubstring) | 滑动窗口、枚举/分治法 | 重点题  |
 
 
 ### 前缀和
