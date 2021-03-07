@@ -17,11 +17,15 @@ class Solution2 {
 
     public List<List<String>> partition(String s) {
         n = s.length();
+        // f(i,j)表示i，j是否为回文
         f = new boolean[n][n];
         for (int i = 0; i < n; ++i) {
             Arrays.fill(f[i], true);
         }
         // 判断是否是回文
+        // 状态转移方程
+        // true i >= j
+        // f(i + 1, j - 1) & s[i] == s[j] i < j
         for (int i = n - 1; i >= 0; --i) {
             for (int j = i + 1; j < n; ++j) {
                 f[i][j] = (s.charAt(i) == s.charAt(j)) && f[i + 1][j - 1];
