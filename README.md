@@ -116,6 +116,7 @@
 | [139. 单词拆分](src/everyday/wordBreak) | 回溯/动态规划 | 重点题 |
 | [40. 组合总和 II](src/everyday/combinationSum/improve) | 回溯、剪枝 | 重点题 |
 | [剑指 Offer 38. 字符串的排列](src/swordToOffer/permutation) | 回溯、dfs、剪枝 | 重点题 |
+| [131. 分割回文串](src/everyday/partition_palindrome) | 回溯、动态规划预处理、记忆 |  |
 
 
 
