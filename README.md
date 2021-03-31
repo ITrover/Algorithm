@@ -119,6 +119,7 @@
 | [40. 组合总和 II](src/everyday/combinationSum/improve) | 回溯、剪枝 | 重点题 |
 | [剑指 Offer 38. 字符串的排列](src/swordToOffer/permutation) | 回溯、dfs、剪枝 | 重点题 |
 | [131. 分割回文串](src/everyday/partition_palindrome) | 回溯、动态规划预处理、记忆 |  |
+| [90. 子集 II](src/everyday/subsetsWithDup) | 回溯 |  |
 
 
 
@@ -231,6 +232,7 @@
 | :--------------------------------------------: | :--------------------: | ------ |
 |    [222. 完全二叉树的节点个数](src/everyday/countNodes)     |  二分查找、位运算、完全二叉树  |        |
 |    [34. 在排序数组中查找元素的第一个和最后一个位置](src/leetcode/searchRange)     |  二分查找  |        |
+|    [74. 搜索二维矩阵](src/everyday/searchMatrix)     |  二分查找  |        |
 
 
 ### 数学推导
