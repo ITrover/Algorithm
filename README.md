@@ -178,6 +178,7 @@
 | [43. 字符串相乘](src/tencent/multiply) |   字符串相乘   |   重点题   |
 | [907. 子数组的最小值之和](src/bytedance/sumSubarrayMins) |   最小栈   |   重点题   |
 | [448. 找到所有数组中消失的数字](src/everyday/findDisappearedNumbers) |   数组原地修改   |   重点题   |
+| [1006. 笨阶乘](src/everyday/clumsy) |   暴力/栈/发现规律   |      |
 
 
 
