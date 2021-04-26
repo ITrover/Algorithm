@@ -235,6 +235,7 @@
 |    [222. 完全二叉树的节点个数](src/everyday/countNodes)     |  二分查找、位运算、完全二叉树  |        |
 |    [34. 在排序数组中查找元素的第一个和最后一个位置](src/leetcode/searchRange)     |  二分查找  |        |
 |    [74. 搜索二维矩阵](src/everyday/searchMatrix)     |  二分查找  |        |
+|    [1011. 在 D 天内送达包裹的能力](src/everyday/shipWithinDays)     |  二分查找  |   重点题     |
 
 
 ### 数学推导
