@@ -36,6 +36,7 @@
 |       [103. 二叉树的锯齿形层序遍历](src/everyday/zigzagLevelOrder)        |DFS、BFS、队列 | 重点题  |
 |       [100. 相同的树](src/bytedance/isSameTree)        |递归 |  |
 |       [173. 二叉搜索树迭代器](src/everyday/BSTIterator)        |中序遍历 |  |
+|       [872. 叶子相似的树](src/everyday/leafSimilar)        |递归 |  |
 
 
 
