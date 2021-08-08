@@ -310,6 +310,7 @@
 |    [232. 用栈实现队列](src/leetcode/myQueue)     | 栈  |       |
 |    [503. 下一个更大元素 II](src/everyday/nextGreaterElements)     | 单调栈 循环数组  | 重点题       |
 |    [1047. 删除字符串中的所有相邻重复项](src/everyday/removeDuplicates)     | 栈 |        |
+|    [面试题 16.26. 计算器](src/everyday/calculate)     | 栈 |        |
 
 ### 数学
 
