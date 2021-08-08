@@ -59,6 +59,7 @@
 |        [13. 打家劫舍 II](src/leetcode/rob/improve)        |     动态规划   | 重点题  |
 |        [354. 俄罗斯套娃信封问题](src/everyday/maxEnvelopes)        |     动态规划、二分查找   | 重点题  |
 |        [132. 分割回文串 II](src/everyday/minCut)        |     动态规划   | 重点题  |
+|        [1137. 第 N 个泰波那契数](src/everyday/tribonacci)        |     动态规划   |   |
 
 
 
@@ -199,6 +200,7 @@
 | [451. 根据字符出现频率排序](src/leetcode/frequencySort) |   哈希、桶排序、堆排序   |        |
 | [1046. 最后一块石头的重量](src/everyday/lastStoneWeight) |   大顶堆   |        |
 | [703. 数据流中的第 K 大元素](src/everyday/KthLargest) |   小顶堆   |   重点题     |
+| [274. H 指数](src/everyday/hIndex) |   排序   |   重点题     |
 
 
 ### 贪心算法
