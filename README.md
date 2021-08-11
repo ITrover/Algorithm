@@ -313,6 +313,7 @@
 |    [1047. 删除字符串中的所有相邻重复项](src/everyday/removeDuplicates)     | 栈 |        |
 |    [面试题 16.26. 计算器](src/everyday/calculate)     | 栈 |        |
 |    [面试题 03.05. 栈排序](src/leetcode/SortedStack)     | 栈 |        |
+|    [剑指 Offer II 025. 链表中的两数相加](src/swordToOffer/addTwoNumbers)     | 栈 |        |
 
 ### 数学
 
