@@ -240,6 +240,7 @@
 |    [74. 搜索二维矩阵](src/everyday/searchMatrix)     |  二分查找  |        |
 |    [1011. 在 D 天内送达包裹的能力](src/everyday/shipWithinDays)     |  二分查找  |   重点题     |
 |    [1482. 制作 m 束花所需的最少天数](src/everyday/minDays)     |  二分查找  |   重点题     |
+|    [162. 寻找峰值](src/everyday/findPeakElement)     |  二分查找  |        |
 
 
 ### 数学推导
@@ -311,6 +312,7 @@
 |    [503. 下一个更大元素 II](src/everyday/nextGreaterElements)     | 单调栈 循环数组  | 重点题       |
 |    [1047. 删除字符串中的所有相邻重复项](src/everyday/removeDuplicates)     | 栈 |        |
 |    [面试题 16.26. 计算器](src/everyday/calculate)     | 栈 |        |
+|    [面试题 03.05. 栈排序](src/leetcode/SortedStack)     | 栈 |        |
 
 ### 数学
 
