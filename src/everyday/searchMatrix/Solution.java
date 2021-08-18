@@ -13,7 +13,7 @@ class Solution {
         }
         int[] arr = new int[n];
         int i = 0;
-        for(int[] m : matrix) {
+        for(int[] ignored : matrix) {
             arr[i] = matrix[i][0];
             i++;
         }
