@@ -315,6 +315,7 @@
 |    [面试题 16.26. 计算器](src/everyday/calculate)     | 栈 |        |
 |    [面试题 03.05. 栈排序](src/leetcode/SortedStack)     | 栈 |        |
 |    [剑指 Offer II 025. 链表中的两数相加](src/swordToOffer/addTwoNumbers)     | 栈 |        |
+|    [443. 压缩字符串](src/everyday/compress)     | 栈 |        |
 
 ### 数学
 
