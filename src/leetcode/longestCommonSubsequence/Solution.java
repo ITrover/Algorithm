@@ -17,6 +17,9 @@ class Solution {
     public int longestCommonSubsequence(String text1, String text2) {
         int m = text1.length();
         int n = text2.length();
+        // 第一行和第一列都为0
+        // 为了保证第一行和第一列元素的操作和其他元素相同
+        // 因为状态转移方程，dp[i][j]的值与dp[i-1][j]和dp[i][j-1]有关
         int[][] dp = new int[m + 1][n + 1];
 
         for (int i = 0; i < m; i++) {
