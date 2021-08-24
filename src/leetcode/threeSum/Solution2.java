@@ -9,12 +9,14 @@ import java.util.List;
  * @version 1.0
  * @description
  * @date 2020/6/17 13:11
+ * 15. 三数之和 https://leetcode-cn.com/problems/3sum/
+ * 双指针
  */
 class Solution2 {
     public List<List<Integer>> threeSum(int[] nums) {
-        // 排序 , 又小到大
+        // 排序 , 由小到大
         // 先定一个数，然后用指针去找后面另外两个数
-        // 时间复杂度 o(n)
+        // 时间复杂度 o(n^2)
         Arrays.sort(nums);
         List<List<Integer>> list = new ArrayList<>();
         if (nums.length == 0 || nums[0] > 0 || nums[nums.length - 1] < 0){
@@ -26,7 +28,7 @@ class Solution2 {
                 break;
             }
             // 如果当前的数等于之前的数，则继续（重复了）
-            if (i > 0 &&nums[i] == nums[i - 1]) {
+            if (i > 0 && nums[i] == nums[i - 1]) {
                 continue;
             }
             int target = -nums[i];
@@ -56,8 +58,8 @@ class Solution2 {
 
 
     public static void main(String[] args) {
-        leetcode.threeSum.Solution solution = new leetcode.threeSum.Solution();
-        int[] nums = {-1, 0, 1, 2, -1, -4};
-        System.out.println(solution.threeSum(nums));
+        Solution2 solution2 = new Solution2();
+        int[] nums = {-1, 0, 1, 2, 2, -4};
+        System.out.println(solution2.threeSum(nums));
     }
 }
