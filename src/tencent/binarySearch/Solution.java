@@ -74,7 +74,7 @@ public class Solution {
             }
         }
         // 没有找到
-        if (right >= arr.length || arr[right] != target) {
+        if (right < 0 || arr[right] != target) {
             return -1;
         }
         return right;
