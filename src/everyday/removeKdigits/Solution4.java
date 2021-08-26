@@ -22,7 +22,7 @@ class Solution4 {
         int j = -1;
         for (int i = 0; i < length; ++i) {
             char digit = num.charAt(i);
-            // 回退
+            // 回退，保证res为单调栈，从小到大
             while (k > 0 && j >= 0 && res[j] > digit) {
                 k--;
                 j--;
@@ -31,9 +31,10 @@ class Solution4 {
             res[j] = digit;
         }
         j = 0;
+        // 去掉前面的0
         while (j < length && res[j] == '0') {
             j++;
         }
-        return j == resLen? "0" : new String(res, j, resLen - j);
+        return j == resLen ? "0" : new String(res, j, resLen - j);
     }
 }
