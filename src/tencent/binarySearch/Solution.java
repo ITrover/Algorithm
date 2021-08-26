@@ -73,7 +73,13 @@ public class Solution {
                 left = mid + 1;
             }
         }
-        // 没有找到
+        // 没有找到，两种可能
+        // target比arr所有数都小，right = -1
+        // arr中不存在target或target > arr的最大的数，那么此时right指向arr中刚好小于target的数
+        // 对于这两种可能，left指向的数一定是arr中刚好大于target的数
+        // 若存在则返回右边界，不存在则返回刚好大于target的位置，则代码如下
+        // return right < 0 || arr[right] != target ? left : right;
+        // 若不存在放回-1
         if (right < 0 || arr[right] != target) {
             return -1;
         }
