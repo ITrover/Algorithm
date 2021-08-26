@@ -60,6 +60,8 @@
 |        [354. 俄罗斯套娃信封问题](src/everyday/maxEnvelopes)        |     动态规划、二分查找   | 重点题  |
 |        [132. 分割回文串 II](src/everyday/minCut)        |     动态规划   | 重点题  |
 |        [1137. 第 N 个泰波那契数](src/everyday/tribonacci)        |     动态规划   |   |
+|        [516. 最长回文子序列](src/leetcode/longestCommonSubsequence/longestPalindromeSubseq)        |     动态规划   |   |
+|        [63. 不同路径 II](src/tencent/uniquePaths/obstacles)        |     动态规划、回溯   |   |
 
 
 
