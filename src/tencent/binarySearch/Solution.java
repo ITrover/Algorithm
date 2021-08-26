@@ -47,6 +47,8 @@ public class Solution {
                 right = mid - 1;
             }
         }
+        // 若存在则返回左边界，不存在则返回刚好小于target的位置，则代码如下
+        // left >= arr.length || arr[left] != target ? right : left;
         // 没有找到
         if (left >= arr.length || arr[left] != target) {
             return -1;
