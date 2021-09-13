@@ -15,6 +15,7 @@
 | [205. 同构字符串](src/everyday/isIsomorphic) | 哈希表、双向映射 |  |
 | [1128. 等价多米诺骨牌对的数量](src/everyday/numEquivDominoPairs) | Map/数组、计数 |  |
 | [888. 公平的糖果棒交换](src/everyday/fairCandySwap) | 哈希表 |  |
+| [447. 回旋镖的数量](src/leetcode/numberOfBoomerangs) | 哈希表 + 枚举 |  |
 
 
 
