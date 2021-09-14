@@ -11,7 +11,7 @@ import java.util.List;
 class Solution02 {
     public String findLongestWord(String s, List<String> d) {
         int length = s.length();
-        // index[i][j]表示，s[i]后第一次出现'a'+j的位置
+        // index[i][j]表示，s[i]及以后第一次出现'a'+j的位置
         int[][] index = new int[length + 1][26];
         Arrays.fill(index[length], length);
         for (int i = length - 1; i >= 0; i--) {
