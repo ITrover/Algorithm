@@ -321,6 +321,7 @@
 |    [面试题 03.05. 栈排序](src/leetcode/SortedStack)     | 栈 |        |
 |    [剑指 Offer II 025. 链表中的两数相加](src/swordToOffer/addTwoNumbers)     | 栈 |        |
 |    [443. 压缩字符串](src/everyday/compress)     | 栈 |        |
+|    [82. 删除排序链表中的重复元素 II](src/leetcode/deleteDuplicates)     | 链表 |        |
 
 ### 数学
 
