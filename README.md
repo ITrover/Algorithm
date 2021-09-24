@@ -148,6 +148,7 @@
 | [剑指 Offer 24. 反转链表](src/swordToOffer/reverseList) | 双指针/递归/栈 |  |
 | [89. 数组形式的整数加法](src/everyday/addToArrayForm) | /栈/链表/数组/题目条件 |  |
 | [725. 分隔链表](src/everyday/splitListToParts) | 链表操作 |  |
+| [430. 扁平化多级双向链表](src/everyday/flatten) | 链表操作、dfs |  |
 
 
 
