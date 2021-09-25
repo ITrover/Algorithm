@@ -63,6 +63,7 @@
 |        [1137. 第 N 个泰波那契数](src/everyday/tribonacci)        |     动态规划   |   |
 |        [516. 最长回文子序列](src/leetcode/longestCommonSubsequence/longestPalindromeSubseq)        |     动态规划   |   |
 |        [63. 不同路径 II](src/tencent/uniquePaths/obstacles)        |     动态规划、回溯   |   |
+|        [583. 两个字符串的删除操作](src/everyday/minDistance)        |     动态规划   |   |
 
 
 
