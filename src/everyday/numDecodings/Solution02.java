@@ -4,6 +4,7 @@ package everyday.numDecodings;
  * @author MaYunHao
  * @version 1.0
  * @date 2021/9/27 23:22
+ * 动态规划
  */
 class Solution02 {
     static final int MOD = 1000000007;
@@ -13,8 +14,10 @@ class Solution02 {
         // a = f[i-2], b = f[i-1], c = f[i]
         long a = 0, b = 1, c = 0;
         for (int i = 1; i <= n; ++i) {
+            // 本次只选取前一个数
             c = b * check1digit(s.charAt(i - 1)) % MOD;
             if (i > 1) {
+                // 本次选取前两个数字
                 c = (c + a * check2digits(s.charAt(i - 2), s.charAt(i - 1))) % MOD;
             }
             a = b;
