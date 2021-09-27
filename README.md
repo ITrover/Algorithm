@@ -64,6 +64,7 @@
 |        [516. 最长回文子序列](src/leetcode/longestCommonSubsequence/longestPalindromeSubseq)        |     动态规划   |   |
 |        [63. 不同路径 II](src/tencent/uniquePaths/obstacles)        |     动态规划、回溯   |   |
 |        [583. 两个字符串的删除操作](src/everyday/minDistance)        |     动态规划   |   |
+|        [639. 解码方法 II](src/everyday/numDecodings)        |     回溯 dfs 记忆/动态规划   | 重点题  |
 
 
 
@@ -170,6 +171,7 @@
 | [1356. 根据数字二进制下 1 的数目排序](src/everyday/sortByBits) | 位运算、改变排序规则、题目条件利用 |      |
 | [剑指 Offer 56 - I. 数组中数字出现的次数](src/swordToOffer/singleNumbers) | 位运算、分组异或 |      |
 | [389. 找不同](src/everyday/findTheDifference) | 异或/排序/计数/求和 |      |
+| [371. 两整数之和](src/everyday/getSum) | 位运算 |      |
 
 
 
