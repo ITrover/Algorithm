@@ -22,6 +22,9 @@ class Solution {
             num -= avg;
             // 前面i个与avg差的总和
             presum += num;
+            // 最大值有两种情况
+            // 1. 前后两组需要移动的最大次数
+            // 2. 当前洗衣机中衣服数量过多需要移动的次数
             res = Math.max(res, Math.max(Math.abs(presum), num));
         }
         return res;
