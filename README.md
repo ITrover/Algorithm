@@ -229,6 +229,7 @@
 | [674. 最长连续递增序列](src/everyday/findLengthOfLCIS) | 贪心 | 重点题      |
 | [316. 去除重复字母](src/everyday/removeDuplicateLetters) | 贪心+单调栈 | 重点题      |
 | [502. IPO](src/leetcode/findMaximizedCapital) | 堆、贪心算法 | 重点题      |
+| [517. 超级洗衣机](src/everyday/findMinMoves) | 贪心算法 | 重点题      |
 
 
 
