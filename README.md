@@ -173,6 +173,7 @@
 | [剑指 Offer 56 - I. 数组中数字出现的次数](src/swordToOffer/singleNumbers) | 位运算、分组异或 |      |
 | [389. 找不同](src/everyday/findTheDifference) | 异或/排序/计数/求和 |      |
 | [371. 两整数之和](src/everyday/getSum) | 位运算 |      |
+| [405. 数字转换为十六进制数](src/everyday/toHex) | 位运算 |      |
 
 
 
