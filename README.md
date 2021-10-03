@@ -242,6 +242,7 @@
 | [172. 阶乘后的零](src/leetcode/trailingZeroes) | 数学公式、技巧、找因子 | 重点题 |
 | [231. 2的幂](src/tencent/isPowerOfTwo) | 余/二进制 | 重点题 |
 | [1232. 缀点成线](src/everyday/checkStraightLine) | 斜率 |  |
+| [166. 分数到小数](src/everyday/fractionToDecimal) | 长除法 | 重点题  |
 
 
 ### 二分查找
