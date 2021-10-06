@@ -78,7 +78,7 @@
 |       [1370. 上升下降字符串](src/everyday/sortString)       |   模拟、借助数组   |  |
 |       [88. 合并两个有序数组](src/tencent/spiralOrder)       |   模拟、数组   |  |
 |       [189. 旋转数组](src/everyday/rotate)       |   模拟、向前冒泡|  |
-|       [1018. 可被 5 整除的二进制前缀](src/everyday/prefixesDivBy5)       |   模拟，暴力求解|  |
+|       [1018. 可被 5 整除的二进制前缀](src/e veryday/prefixesDivBy5)       |   模拟，暴力求解|  |
 |       [867. 转置矩阵](src/everyday/transpose)       |   模拟|  |
 |       [482. 密钥格式化](src/everyday/licenseKeyFormatting)       |   模拟|  |
 
@@ -332,6 +332,7 @@
 |    [剑指 Offer II 025. 链表中的两数相加](src/swordToOffer/addTwoNumbers)     | 栈 |        |
 |    [443. 压缩字符串](src/everyday/compress)     | 栈 |        |
 |    [82. 删除排序链表中的重复元素 II](src/leetcode/deleteDuplicates)     | 链表 |        |
+|    [414. 第三大的数](src/everyday/thirdMax)     | 有序集合 |        |
 
 ### 数学
 
