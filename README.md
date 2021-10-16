@@ -131,6 +131,7 @@
 | [131. 分割回文串](src/everyday/partition_palindrome) | 回溯、动态规划预处理、记忆 |  |
 | [90. 子集 II](src/everyday/subsetsWithDup) | 回溯 |  |
 | [17. 电话号码的字母组合](src/everyday/letterCombinations) | 回溯 |  |
+| [282. 给表达式添加运算符](src/everyday/addOperators) | 回溯 | 重点题 |
 
 
 
