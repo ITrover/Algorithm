@@ -37,6 +37,7 @@ class Solution {
         }
         int left = dfs(root.left, k);
         cnt++;
+        // 当前结点的为第k个，则找到了目标值
         if (cnt == k) {
             return root.val;
         }
