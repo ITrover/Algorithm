@@ -16,6 +16,7 @@
 | [1128. 等价多米诺骨牌对的数量](src/everyday/numEquivDominoPairs) | Map/数组、计数 |  |
 | [888. 公平的糖果棒交换](src/everyday/fairCandySwap) | 哈希表 |  |
 | [447. 回旋镖的数量](src/leetcode/numberOfBoomerangs) | 哈希表 + 枚举 |  |
+| [128. 最长连续序列](src/leetcode/longestConsecutive) | 哈希表 + 枚举 |  |
 
 
 
