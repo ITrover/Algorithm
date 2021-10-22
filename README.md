@@ -198,6 +198,7 @@
 | [448. 找到所有数组中消失的数字](src/everyday/findDisappearedNumbers) |   数组原地修改   |   重点题   |
 | [1006. 笨阶乘](src/everyday/clumsy) |   暴力/栈/发现规律   |      |
 | [453. 最小操作次数使数组元素相等](src/everyday/minMoves) |  技巧   |      |
+| [229. 求众数 II](src/everyday/majorityElement) |  摩尔投票法/哈希   |      |
 
 
 
