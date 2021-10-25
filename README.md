@@ -263,6 +263,7 @@
 |    [1482. 制作 m 束花所需的最少天数](src/everyday/minDays)     |  二分查找  |   重点题     |
 |    [162. 寻找峰值](src/everyday/findPeakElement)     |  二分查找  |        |
 |    [1894. 找到需要补充粉笔的学生编号 ](src/leetcode/chalkReplacer)     |  二分查找+前缀和  |        |
+|    [240. 搜索二维矩阵 II ](src/everyday/searchMatrix)     |  二分查找  |        |
 
 
 ### 数学推导
