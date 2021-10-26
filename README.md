@@ -17,6 +17,7 @@
 | [888. 公平的糖果棒交换](src/everyday/fairCandySwap) | 哈希表 |  |
 | [447. 回旋镖的数量](src/leetcode/numberOfBoomerangs) | 哈希表 + 枚举 |  |
 | [128. 最长连续序列](src/leetcode/longestConsecutive) | 哈希表 + 枚举 |  |
+| [496. 下一个更大元素 ](src/everyday/nextGreaterElement) | 哈希表 + 单调栈 |  |
 
 
 
