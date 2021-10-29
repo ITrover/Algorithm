@@ -16,7 +16,12 @@
 | [1128. 等价多米诺骨牌对的数量](src/everyday/numEquivDominoPairs) | Map/数组、计数 |  |
 | [888. 公平的糖果棒交换](src/everyday/fairCandySwap) | 哈希表 |  |
 | [447. 回旋镖的数量](src/leetcode/numberOfBoomerangs) | 哈希表 + 枚举 |  |
-| [128. 最长连续序列](src/leetcode/longestConsecutive) | 哈希表 + 枚举 |  |
+ |          递归          |                    |
+|         [226. 翻转二叉树](src/leetcode/invertTree)         |          递归          |                    |
+|       [98. 验证二叉搜索树](src/leetcode/isValidBST)        | 先序遍历/递归/层次遍历 |  |
+|       [124. 二叉树中的最大路径和](src/tencent/maxPathSum)        | 后序遍历/递归 |  |
+|       [剑指 Offer 26. 树的子结构](src/swordToOffer/isSubStructure)        | 递归、树的遍历、穷举 | 重点题 |
+|       [剑指 Offer 68 - II. 二| [128. 最长连续序列](src/leetcode/longestConsecutive) | 哈希表 + 枚举 |  |
 | [496. 下一个更大元素 ](src/everyday/nextGreaterElement) | 哈希表 + 单调栈 |  |
 
 
@@ -28,12 +33,7 @@
 |                            题目                            |         关键字         |                  |
 | :--------------------------------------------------------: | :--------------------: | ---------------------- |
 |   [129. 求根到叶子节点数字之和](src/everyday/sumNumbers)   |     先序遍历、递归     |          |
-| [1325. 删除给定值的叶子节点](src/leetcode/removeLeafNodes) |          递归          |                    |
-|         [226. 翻转二叉树](src/leetcode/invertTree)         |          递归          |                    |
-|       [98. 验证二叉搜索树](src/leetcode/isValidBST)        | 先序遍历/递归/层次遍历 |  |
-|       [124. 二叉树中的最大路径和](src/tencent/maxPathSum)        | 后序遍历/递归 |  |
-|       [剑指 Offer 26. 树的子结构](src/swordToOffer/isSubStructure)        | 递归、树的遍历、穷举 | 重点题 |
-|       [剑指 Offer 68 - II. 二叉树的最近公共祖先](src/swordToOffer/lowestCommonAncestor)        | 递归 | 重点题 |
+| [1325. 删除给定值的叶子节点](src/leetcode/removeLeafNodes)叉树的最近公共祖先](src/swordToOffer/lowestCommonAncestor)        | 递归 | 重点题 |
 |       [230. 二叉搜索树中第K小的元素](src/tencent/kthSmallest)        |中序遍历 |  |
 |       [剑指 Offer 68 - I. 二叉搜索树的最近公共祖先](src/swordToOffer/lowestCommonAncestor)        |迭代、递归、二叉搜索树的特性、后序遍历 |  |
 |       [103. 二叉树的锯齿形层序遍历](src/everyday/zigzagLevelOrder)        |DFS、BFS、队列 | 重点题  |
@@ -135,6 +135,7 @@
 | [90. 子集 II](src/everyday/subsetsWithDup) | 回溯 |  |
 | [17. 电话号码的字母组合](src/everyday/letterCombinations) | 回溯 |  |
 | [282. 给表达式添加运算符](src/everyday/addOperators) | 回溯 | 重点题 |
+| [79. 单词搜索](src/leetcode/exist) | 回溯 |  |
 
 
 
