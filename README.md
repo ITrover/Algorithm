@@ -345,6 +345,7 @@
 |    [414. 第三大的数](src/everyday/thirdMax)     | 有序集合 |        |
 |    [剑指 Offer II 036. 后缀表达式](src/leetcode/evalRPN)     | 栈 |        |
 |    [622. 设计循环队列](src/leetcode/MyCircularQueue)     | 队列 |        |
+|    [034. 股票价格波动](src/leetcode/StockPrice)     | 数据结构组合 |        |
 
 ### 数学
 
