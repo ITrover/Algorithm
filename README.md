@@ -329,6 +329,7 @@
 | :--------------------------------------------: | :--------------------: | ------ |
 |    [1091. 二进制矩阵中的最短路径](src/leetcode/shortestPathBinaryMatrix)     | BFS  |   重点题    |
 |    [279. 完全平方数](src/leetcode/numSquares)     | BFS  |   重点题    |
+|    [2045. 到达目的地的第二短时间](src/everyday/secondMinimum)     | BFS  |   重点题    |
 
 ### 数据结构
 
