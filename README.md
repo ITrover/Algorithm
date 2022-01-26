@@ -21,8 +21,9 @@
 |       [98. 验证二叉搜索树](src/leetcode/isValidBST)        | 先序遍历/递归/层次遍历 |  |
 |       [124. 二叉树中的最大路径和](src/tencent/maxPathSum)        | 后序遍历/递归 |  |
 |       [剑指 Offer 26. 树的子结构](src/swordToOffer/isSubStructure)        | 递归、树的遍历、穷举 | 重点题 |
-|       [剑指 Offer 68 - II. 二| [128. 最长连续序列](src/leetcode/longestConsecutive) | 哈希表 + 枚举 |  |
+|       [128. 最长连续序列](src/leetcode/longestConsecutive) | 哈希表 + 枚举 |  |
 | [496. 下一个更大元素 ](src/everyday/nextGreaterElement) | 哈希表 + 单调栈 |  |
+| [2013. 检测正方形 ](src/everyday/DetectSquares) | 哈希表  |  |
 
 
 
