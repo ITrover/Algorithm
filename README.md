@@ -348,6 +348,7 @@
 |    [剑指 Offer II 036. 后缀表达式](src/leetcode/evalRPN)     | 栈 |        |
 |    [622. 设计循环队列](src/leetcode/MyCircularQueue)     | 队列 |        |
 |    [034. 股票价格波动](src/leetcode/StockPrice)     | 数据结构组合 |        |
+|    [739. 每日温度](src/leetcode/dailyTemperatures)     | 单调栈 |        |
 
 ### 数学
 
