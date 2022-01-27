@@ -16,7 +16,7 @@ class Solution2 {
         int[] next = new int[101];
         Arrays.fill(next, Integer.MAX_VALUE);
         for (int i = n - 1; i >= 0; i--) {
-            // 倒着遍历，保证next中记录的值都比当前的值大
+            // 倒着遍历，保证next中记录的值都比当前的值大，且距离当前最近
             int index = Integer.MAX_VALUE;
             for (int t = temperatures[i] + 1; t < 101; t++) {
                 // 寻找比当前温度大且距离i最近的位置
