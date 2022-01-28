@@ -222,6 +222,7 @@
 | [1046. 最后一块石头的重量](src/everyday/lastStoneWeight) |   大顶堆   |        |
 | [703. 数据流中的第 K 大元素](src/everyday/KthLargest) |   小顶堆   |   重点题     |
 | [274. H 指数](src/everyday/hIndex) |   排序   |   重点题     |
+| [1996. 游戏中弱角色的数量](src/everyday/numberOfWeakCharacters) |   排序   |   重点题     |
 
 
 ### 贪心算法
