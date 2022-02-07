@@ -245,6 +245,7 @@
 | [502. IPO](src/leetcode/findMaximizedCapital) | 堆、贪心算法 | 重点题      |
 | [517. 超级洗衣机](src/everyday/findMinMoves) | 贪心算法 | 重点题      |
 | [1414. 和为 K 的最少斐波那契数字数目](src/everyday/findMinFibonacciNumbers) | 贪心算法 | 重点题      |
+| [1405. 最长快乐字符串](src/everyday/longestDiverseString) | 贪心算法 | 重点题      |
 
 
 
