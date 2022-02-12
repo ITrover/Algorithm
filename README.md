@@ -328,6 +328,7 @@
 |    [684. 冗余连接](src/everyday/findRedundantConnection)     | 并查集  |       |
 |    [1319. 连通网络的操作次数](src/everyday/makeConnected)     | 并查集  |       |
 |    [1579. 保证图可完全遍历](src/everyday/maxNumEdgesToRemove)     | 并查集  |       |
+|    [面试题 17.07. 婴儿名字](src/leetcode/trulyMostPopular)     | 并查集  |       |
 
 ### BFS
 
