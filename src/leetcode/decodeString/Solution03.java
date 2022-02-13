@@ -29,6 +29,7 @@ class Solution03 {
                 }
                 multi = 0;
             } else if (c == ']') {
+                // 结束递归
                 next = i;
                 // 返回]之前的，给上一层重复使用
                 return res.toString();
