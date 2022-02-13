@@ -16,7 +16,6 @@
 | [1128. 等价多米诺骨牌对的数量](src/everyday/numEquivDominoPairs) | Map/数组、计数 |  |
 | [888. 公平的糖果棒交换](src/everyday/fairCandySwap) | 哈希表 |  |
 | [447. 回旋镖的数量](src/leetcode/numberOfBoomerangs) | 哈希表 + 枚举 |  |
- |          递归          |                    |
 |         [226. 翻转二叉树](src/leetcode/invertTree)         |          递归          |                    |
 |       [98. 验证二叉搜索树](src/leetcode/isValidBST)        | 先序遍历/递归/层次遍历 |  |
 |       [124. 二叉树中的最大路径和](src/tencent/maxPathSum)        | 后序遍历/递归 |  |
@@ -355,6 +354,7 @@
 |    [622. 设计循环队列](src/leetcode/MyCircularQueue)     | 队列 |        |
 |    [034. 股票价格波动](src/leetcode/StockPrice)     | 数据结构组合 |        |
 |    [739. 每日温度](src/leetcode/dailyTemperatures)     | 单调栈 |        |
+|    [394. 字符串解码](src/leetcode/decodeString)     | 栈/递归 |        |
 
 ### 数学
 
