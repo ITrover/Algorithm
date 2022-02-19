@@ -224,6 +224,7 @@
 | [703. 数据流中的第 K 大元素](src/everyday/KthLargest) |   小顶堆   |   重点题     |
 | [274. H 指数](src/everyday/hIndex) |   排序   |   重点题     |
 | [1996. 游戏中弱角色的数量](src/everyday/numberOfWeakCharacters) |   排序   |   重点题     |
+| [969. 煎饼排序](src/everyday/pancakeSort) |   排序   |        |
 
 
 ### 贪心算法
