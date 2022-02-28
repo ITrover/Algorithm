@@ -138,6 +138,7 @@
 | [17. 电话号码的字母组合](src/everyday/letterCombinations) | 回溯 |  |
 | [282. 给表达式添加运算符](src/everyday/addOperators) | 回溯 | 重点题 |
 | [79. 单词搜索](src/leetcode/exist) | 回溯 |  |
+| [1601. 最多可达成的换楼请求](src/everyday/maximumRequests) | 二进制枚举/回溯 |  |
 
 
 
