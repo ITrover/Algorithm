@@ -275,6 +275,7 @@
 |    [162. 寻找峰值](src/everyday/findPeakElement)     |  二分查找  |        |
 |    [1894. 找到需要补充粉笔的学生编号 ](src/leetcode/chalkReplacer)     |  二分查找+前缀和  |        |
 |    [240. 搜索二维矩阵 II ](src/everyday/searchMatrix)     |  二分查找  |        |
+|    [3287. 寻找重复数](src/leetcode/findDuplicate)     |  二分查找/快慢指针  |        |
 
 
 ### 数学推导
