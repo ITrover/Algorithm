@@ -3,6 +3,7 @@ package leetcode.findDuplicate;
 /**
  * @author itrover
  * 287. 寻找重复数 https://leetcode-cn.com/problems/find-the-duplicate-number/
+ * 若有重复数，那么就存在多对一的映射
  * 快慢指针，类似于循环链表
  */
 class Solution02 {
