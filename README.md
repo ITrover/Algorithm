@@ -316,6 +316,7 @@
 | :--------------------------------------------: | :--------------------: | ------ |
 |    [面试题 01.05. 一次编辑](src/leetcode/oneEditAway)     | 分情况讨论  |       |
 |    [468. 验证IP地址](src/bytedance/validIPAddress)     | 分情况讨论  |       |
+|    [564. 寻找最近的回文数](src/everyday/nearestPalindromic)     | 模拟、分情况讨论  |       |
 
 ### 图
 
