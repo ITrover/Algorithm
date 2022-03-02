@@ -42,6 +42,7 @@
 |       [872. 叶子相似的树](src/everyday/leafSimilar)        |递归 |  |
 |       [437. 路径总和 III](src/everyday/pathSum)        |dfs/前缀和 |  |
 |       [337. 打家劫舍](src/leetcode/rob/improve2)        |dfs |  |
+|       [1245. 树的直径](src/leetcode/treeDiameter)        |dfs |  |
 
 
 
