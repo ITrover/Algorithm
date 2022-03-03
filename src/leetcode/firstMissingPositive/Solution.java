@@ -5,6 +5,7 @@ package leetcode.firstMissingPositive;
  * @author itrover
  * 41. 缺失的第一个正数 https://leetcode-cn.com/problems/first-missing-positive/
  * 原地哈希
+ * 将1,n依次放在数组的[0,n-1]的位置，若num[i] != i + 1，则该数缺失
  */
 class Solution {
     public int firstMissingPositive(int[] nums) {
