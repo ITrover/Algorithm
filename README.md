@@ -250,6 +250,7 @@
 | [1414. 和为 K 的最少斐波那契数字数目](src/everyday/findMinFibonacciNumbers) | 贪心算法 | 重点题      |
 | [1405. 最长快乐字符串](src/everyday/longestDiverseString) | 贪心算法 | 重点题      |
 | [621. 任务调度器](src/leetcode/leastInterval) | 贪心算法 |       |
+| [6553. 最优除法](src/leetcode/optimalDivision) | 数学+贪心 |       |
 
 
 
