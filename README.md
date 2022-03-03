@@ -23,6 +23,7 @@
 |       [128. 最长连续序列](src/leetcode/longestConsecutive) | 哈希表 + 枚举 |  |
 | [496. 下一个更大元素 ](src/everyday/nextGreaterElement) | 哈希表 + 单调栈 |  |
 | [2013. 检测正方形 ](src/everyday/DetectSquares) | 哈希表  |  |
+| [41. 缺失的第一个正数](src/leetcode/firstMissingPositive) | 原地哈希  |  |
 
 
 
