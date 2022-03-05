@@ -364,6 +364,7 @@
 |    [034. 股票价格波动](src/leetcode/StockPrice)     | 数据结构组合 |        |
 |    [739. 每日温度](src/leetcode/dailyTemperatures)     | 单调栈 |        |
 |    [394. 字符串解码](src/leetcode/decodeString)     | 栈/递归 |        |
+|    [1249. 移除无效的括号](src/leetcode/minRemoveToMakeValid)     | 栈 |        |
 
 ### 数学
 
