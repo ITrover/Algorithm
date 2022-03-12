@@ -3,7 +3,7 @@ package leetcode.intToRoman;
 /**
  * @author itrover
  * 12. 整数转罗马数字 https://leetcode-cn.com/problems/integer-to-roman/
- * 枚举
+ * 枚举 贪心
  */
 class Solution {
     public String intToRoman(int num) {
