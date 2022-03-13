@@ -187,6 +187,7 @@
 | [371. 两整数之和](src/everyday/getSum) | 位运算 |      |
 | [405. 数字转换为十六进制数](src/everyday/toHex) | 位运算 |      |
 | [面试题 16.01. 交换数字](src/leetcode/swapNumbers) | 位运算 |      |
+| [393. UTF-8 编码验证](src/everyday/validUtf8) | 位运算 |      |
 
 
 
