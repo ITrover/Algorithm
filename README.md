@@ -118,6 +118,7 @@
 | [978. 最长湍流子数组](src/everyday/maxTurbulenceSize) | 双指针/动态规划 | |
 | [832. 翻转图像](src/everyday/flipAndInvertImage) | 双指针 | |
 | [80. 删除有序数组中的重复项 II](src/everyday/removeDuplicates2) | 三指针 | |
+| [18. 四数之和](src/leetcode/fourSum) | 双指针 | |
 
 
 ### 字典树
