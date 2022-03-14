@@ -72,6 +72,7 @@
 |        [583. 两个字符串的删除操作](src/everyday/minDistance)        |     动态规划   |   |
 |        [639. 解码方法 II](src/everyday/numDecodings)        |     回溯 dfs 记忆/动态规划   | 重点题  |
 |        [1218. 最长定差子序列](src/everyday/longestSubsequence)        |     动态规划   | 重点题  |
+|        [718. 最长重复子数组](src/leetcode/findLength)        |     动态规划   |   |
 
 
 
