@@ -372,6 +372,7 @@
 |    [739. 每日温度](src/leetcode/dailyTemperatures)     | 单调栈 |        |
 |    [394. 字符串解码](src/leetcode/decodeString)     | 栈/递归 |        |
 |    [1249. 移除无效的括号](src/leetcode/minRemoveToMakeValid)     | 栈 |        |
+|    [432. 全 O(1) 的数据结构](src/everyday/allOne)     | 数据结构组合（双向链表+hash |        |
 
 ### 数学
 
