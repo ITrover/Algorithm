@@ -258,6 +258,7 @@
 | [1405. 最长快乐字符串](src/everyday/longestDiverseString) | 贪心算法 | 重点题      |
 | [621. 任务调度器](src/leetcode/leastInterval) | 贪心算法 |       |
 | [6553. 最优除法](src/leetcode/optimalDivision) | 数学+贪心 |       |
+| [LCP 33. 蓄水](src/leetcode/storeWater) | 贪心 |       |
 
 
 
