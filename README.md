@@ -74,6 +74,7 @@
 |        [1218. 最长定差子序列](src/everyday/longestSubsequence)        |     动态规划   | 重点题  |
 |        [718. 最长重复子数组](src/leetcode/findLength)        |     动态规划   |   |
 |        [221. 最大正方形](src/leetcode/maximalSquare)        |     动态规划/前缀和、二分查找   |   |
+|        [494. 目标和](src/leetcode/findTargetSumWays)        |     动态规划   |   |
 
 
 
