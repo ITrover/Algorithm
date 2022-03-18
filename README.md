@@ -130,6 +130,7 @@
 | :----------------------------------------: | :-----------: | ------ |
 | [648. 单词替换](src/leetcode/replaceWords) | 字典树/hash表 | 重点题 |
 | [211. 添加与搜索单词 - 数据结构设计](src/everyday/WordDictionary) | 字典树/hash表 |  |
+| [剑指 Offer II 065. 最短的单词编码](src/leetcode/minimumLengthEncoding) | 字典树 |  |
 
 
 
