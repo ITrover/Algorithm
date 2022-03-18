@@ -181,6 +181,7 @@
 |                    题目                    |      关键字       |        |
 | :----------------------------------------: | :---------------: | ------ |
 | [127. 单词接龙](src/everyday/ladderLength) | BFS、队列、Hash表 | 重点题 |
+| [剑指 Offer II 109. 开密码锁 ](src/swordToOffer/openLock) | bfs | 重点题 |
 
 
 
