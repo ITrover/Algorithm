@@ -378,6 +378,7 @@
 |    [394. 字符串解码](src/leetcode/decodeString)     | 栈/递归 |        |
 |    [1249. 移除无效的括号](src/leetcode/minRemoveToMakeValid)     | 栈 |        |
 |    [432. 全 O(1) 的数据结构](src/everyday/allOne)     | 数据结构组合（双向链表+hash |        |
+|    [1190. 反转每对括号间的子串](src/everyday/reverseParentheses)     | 栈 |        |
 
 ### 数学
 
