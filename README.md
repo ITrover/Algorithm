@@ -216,6 +216,7 @@
 | [1006. 笨阶乘](src/everyday/clumsy) |   暴力/栈/发现规律   |      |
 | [453. 最小操作次数使数组元素相等](src/everyday/minMoves) |  技巧   |      |
 | [229. 求众数 II](src/everyday/majorityElement) |  摩尔投票法/哈希   |      |
+| [204. 计数质数](src/leetcode/countPrimes) |  埃及筛/线性筛   |      |
 
 
 
