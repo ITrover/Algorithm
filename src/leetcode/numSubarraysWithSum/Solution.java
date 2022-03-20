@@ -19,6 +19,7 @@ class Solution {
                 left1++;
             }
             sum2 += nums[right];
+            // [left1, left2) 与 right构成的子数组的和都为goal
             while (left2 <= right && sum2 >= goal) {
                 sum2 -= nums[left2];
                 left2++;
