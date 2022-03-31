@@ -16,8 +16,8 @@ class Solution {
         // 通过=号把x和数字放两边
         String[] splits = equation.split("=");
         // 一定有等号，所以能够拆成左右
-        Node left = split(splits[0]);
-        Node right = split(splits[1]);
+        Node left = split02(splits[0]);
+        Node right = split02(splits[1]);
         // 把x都放在做左边
         left.xs -= right.xs;
         // 把数字都放在右边
@@ -85,6 +85,44 @@ class Solution {
                 sign = s.charAt(i) == '-' ? -1 : 1;
                 i++;
             }
+        }
+        return new Node(ns, xs);
+    }
+
+    Node split02(String s) {
+        if (s == null || s.length() == 0) {
+            return new Node(0, 0);
+        }
+        // 数字
+        int ns = 0;
+        // x的个数
+        int xs = 0;
+        int sign = 1;
+        int number = 0;
+        for (int i = 0; i < s.length(); ) {
+            // 只有可能 + - x 数字
+            if (Character.isDigit(s.charAt(i))) {
+                number *= 10;
+                number += s.charAt(i) - '0';
+                if (i == s.length() - 1) {
+                    ns += sign * number;
+                }
+            } else if (s.charAt(i) == 'x') {
+                // 计算x的个数
+                if (number == 0 && (i == 0 || !Character.isDigit(s.charAt(i - 1)))) {
+                    number = 1;
+                }
+                xs += sign * number;
+                number = 0;
+            } else {
+                // 计算数字的大小
+                if (i != 0 && Character.isDigit(s.charAt(i - 1))) {
+                    ns += sign * number;
+                }
+                sign = s.charAt(i) == '-' ? -1 : 1;
+                number = 0;
+            }
+            i++;
         }
         return new Node(ns, xs);
     }
