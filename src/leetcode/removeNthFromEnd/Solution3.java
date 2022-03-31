@@ -28,6 +28,7 @@ public class Solution3 {
 
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode fast = head, slow = head;
+        // fast 先走n步
         while (n-- > 0 && fast != null) {
             fast = fast.next;
         }
@@ -37,7 +38,7 @@ public class Solution3 {
         }
         // 如何判断是否删除头结点，如果删除头结点，那么fast必为null
         // 删除头结点的情况
-        if ((fast == null)) {
+        if (fast == null) {
             return head == null ? null : head.next;
         }
         slow.next = slow.next.next;
