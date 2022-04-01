@@ -238,6 +238,7 @@
 | [274. H 指数](src/everyday/hIndex) |   排序   |   重点题     |
 | [1996. 游戏中弱角色的数量](src/everyday/numberOfWeakCharacters) |   排序   |   重点题     |
 | [969. 煎饼排序](src/everyday/pancakeSort) |   排序   |        |
+| [980. 找出不同的二进制字符串](src/leetcode/findDifferentBinaryString) |   排序/哈希表   |        |
 
 
 ### 贪心算法
