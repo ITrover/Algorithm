@@ -264,6 +264,7 @@
 | [6553. 最优除法](src/leetcode/optimalDivision) | 数学+贪心 |       |
 | [LCP 33. 蓄水](src/leetcode/storeWater) | 贪心 |       |
 | [781. 森林中的兔子](src/leetcode/numRabbits) | 贪心 |       |
+| [954. 二倍数对数组](src/leetcode/canReorderDoubled) | 排序+贪心 |       |
 
 
 
